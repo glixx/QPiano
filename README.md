@@ -121,7 +121,7 @@ You need to translate:
 
 [Script](tools/fluidsynth/qpiano-fluidsynth)
 
-[Script](tools/fluidsynth/qpiano-timidity)
+[Script](tools/timidity/qpiano-timidity)
 
 LICENSE
 =======
