@@ -4,6 +4,6 @@ if(COMMAND cmake_policy)
 endif(COMMAND cmake_policy)
 
 # set project's name
-PROJECT( pianobooster )
+PROJECT( qpiano )
 
 ADD_SUBDIRECTORY(src build)

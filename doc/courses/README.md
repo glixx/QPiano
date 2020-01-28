@@ -1,8 +1,8 @@
-# Piano Booster Music
+# QPiano Music
 
-These pieces of music have been created to work with _PianoBooster_ and
+These pieces of music have been created to work with _QPiano_ and
 have the creative commons copyright.
-All the music is available [here](https://github.com/captnfab/PianoBooster/raw/master/music/BoosterMusicBooks.zip).
+All the music is available [here](https://github.com/glixx/QPiano/raw/master/music/BoosterMusicBooks.zip).
 
 _Please add to the music on this page  - everyone can help._ For more information see this
 [forum post](http://piano-booster.2625608.n2.nabble.com/Creating-music-for-PianoBooster-using-MMA-Everyone-can-help-td4167350.html).
@@ -47,7 +47,7 @@ All the white notes up to the next c. There are eight notes in a scale. Play sca
 
 We are ready to play our first tune.
 
-# Piano Booster Course
+# QPiano Course
 
 ## 01-StartWithMiddleC
 
@@ -67,7 +67,7 @@ The **Chord of C Major** piece, introduces you to the chord of **C Major** which
 
 Use your **thumb** for **C**, your **middle finger** for **E** and your **little finger** for **G**.
 
-**Hint:** _If you don't know the names of the notes on the score then turn on **Show Note Names** from the PianoBooster **Setup/Preferences** menu._
+**Hint:** _If you don't know the names of the notes on the score then turn on **Show Note Names** from the QPiano **Setup/Preferences** menu._
 
 [midi file](BeginnerCourse/02-ChordOfCMajor.mid)
 
@@ -79,7 +79,7 @@ Use your **thumb** for **C**, your **middle finger** for **E** and your **little
 
 Use your **thumb** for **C**, your **index finger** for **D**, . . . , all the way up to your **little finger** for **G**. Make sure you keep using the correct finger for each note.
 
-**Hint:** _If you don't know the notes on the piano then **label the piano keys** using the PianoBooster **Note Chart**._
+**Hint:** _If you don't know the notes on the piano then **label the piano keys** using the QPiano **Note Chart**._
 
 [midi file](BeginnerCourse/03-UpAndDown.mid)
 
@@ -101,7 +101,7 @@ Now we are going to play using your **left hand** the **F major chord**. The thr
 
 Use your **little finger** on the left hand for **F**, your **middle finger** for **A** and your **thumb** for **C**.
 
-**Hint:** _If you don't know the names of the notes on the score then turn on **Show Note Names** from the PianoBooster **Setup/Preferences** menu._
+**Hint:** _If you don't know the names of the notes on the score then turn on **Show Note Names** from the QPiano **Setup/Preferences** menu._
 
 [midi file](BeginnerCourse/05-ChordOfFMajor.mid)
 
@@ -173,9 +173,9 @@ For **Frere Jacques** introduces the use of playing both hands together with a v
 
 ![score](BoosterMusic/06-Greensleeves.svg)
 
-**Green Sleeves** introduces the key of **G major** which has **one Sharp - F#**. Normally the sharp symbol is not shown when **F#** is played (but turning on **Courtesy Accidentals** from the Piano Booster setup/preferences menu will show all accidentals in the key signature). The melody is in the right hand with a simple left hand part.
+**Green Sleeves** introduces the key of **G major** which has **one Sharp - F#**. Normally the sharp symbol is not shown when **F#** is played (but turning on **Courtesy Accidentals** from the QPiano setup/preferences menu will show all accidentals in the key signature). The melody is in the right hand with a simple left hand part.
 
-**Hint:** _You can show **Courtesy Accidentals** from the PianoBooster setup/preferences menu. But remember to **turn them off** when you get more skilled._
+**Hint:** _You can show **Courtesy Accidentals** from the QPiano setup/preferences menu. But remember to **turn them off** when you get more skilled._
 
 [midi file](BoosterMusic/06-Greensleeves.mid)
 
@@ -189,5 +189,5 @@ For **Frere Jacques** introduces the use of playing both hands together with a v
 
 [midi file](BoosterMusic/07-AmazingGrace.mid)
 
-All the music on this page is available [here](https://github.com/captnfab/PianoBooster/raw/master/music/BoosterMusicBooks.zip).
-This free sheet music can be used for beginner piano lessons with _PianoBooster_.
+All the music on this page is available [here](https://github.com/glixx/QPiano/raw/master/music/BoosterMusicBooks.zip).
+This free sheet music can be used for beginner piano lessons with _QPiano_.

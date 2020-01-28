@@ -7,20 +7,20 @@
 
     Copyright (c)   2008-2013, L. J. Barman, all rights reserved
 
-    This file is part of the PianoBooster application
+    This file is part of the QPiano application
 
-    PianoBooster is free software: you can redistribute it and/or modify
+    QPiano is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    PianoBooster is distributed in the hope that it will be useful,
+    QPiano is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with PianoBooster.  If not, see <http://www.gnu.org/licenses/>.
+    along with QPiano.  If not, see <http://www.gnu.org/licenses/>.
 
 */
 
@@ -56,8 +56,8 @@ static int set_realtime_priority(int policy, int prio)
 QtWindow::QtWindow()
 {
     m_settings = new CSettings(this);
-    setWindowIcon(QIcon(":/images/pianobooster.png"));
-    setWindowTitle(tr("Piano Booster"));
+    setWindowIcon(QIcon(":/images/qpiano.png"));
+    setWindowTitle(tr("QPiano"));
 
     Cfg::setDefaults();
 
@@ -186,7 +186,7 @@ QtWindow::~QtWindow()
 //! @brief               Displays the usage
 void QtWindow::displayUsage()
 {
-    fprintf(stdout, "Usage: pianobooster [flags] [midifile]\n");
+    fprintf(stdout, "Usage: qpiano [flags] [midifile]\n");
     fprintf(stdout, "  -d, --debug             Increase the debug level.\n");
     fprintf(stdout, "  -q, --quick-start       Quick start.\n");
     fprintf(stdout, "      --Xnote-length      Displays the note length (experimental)\n");
@@ -237,7 +237,7 @@ void QtWindow::decodeMidiFileArg(QString arg)
 
     if (!fileInfo.exists() )
     {
-        QMessageBox::warning(0, tr("PianoBooster Midi File Error"),
+        QMessageBox::warning(0, tr("QPiano Midi File Error"),
                  tr("Cannot open \"%1\"").arg(QString(fileInfo.absoluteFilePath())));
         exit(1);
     }
@@ -245,7 +245,7 @@ void QtWindow::decodeMidiFileArg(QString arg)
              fileInfo.fileName().endsWith(".midi", Qt::CaseInsensitive ) ||
              fileInfo.fileName().endsWith(".kar", Qt::CaseInsensitive )) )
     {
-        QMessageBox::warning(0, tr("PianoBooster Midi File Error"),
+        QMessageBox::warning(0, tr("QPiano Midi File Error"),
                  tr("\"%1\" is not a Midi File").arg(QString(fileInfo.fileName())));
         exit(1);
     }
@@ -269,7 +269,7 @@ void QtWindow::decodeMidiFileArg(QString arg)
             m_settings->setValue("CurrentSong", fileInfo.absoluteFilePath());
         else
         {
-            QMessageBox::warning(0, tr("PianoBooster Midi File Error"),
+            QMessageBox::warning(0, tr("QPiano Midi File Error"),
                  tr("\"%1\" is not a valid Midi file").arg(QString(fileInfo.absoluteFilePath())));
             exit(1);
         }
@@ -316,7 +316,7 @@ void QtWindow::decodeCommandLine()
             }
             else if (arg.startsWith("-v") || arg.startsWith("--version"))
             {
-                fprintf(stdout, "pianobooster Version " PB_VERSION"\n");
+                fprintf(stdout, "qpiano Version " PB_VERSION"\n");
                 exit(0);
             }
             else
@@ -482,12 +482,12 @@ void QtWindow::createMenus()
 
     QAction* act;
     act = new QAction(tr("&Help"), this);
-    act->setToolTip(tr("Piano Booster Help"));
+    act->setToolTip(tr("QPiano Help"));
     connect(act, SIGNAL(triggered()), this, SLOT(help()));
     m_helpMenu->addAction(act);
 
     act = new QAction(tr("&Website"), this);
-    act->setToolTip(tr("Piano Booster Website"));
+    act->setToolTip(tr("QPiano Website"));
     connect(act, SIGNAL(triggered()), this, SLOT(website()));
     m_helpMenu->addAction(act);
 
@@ -572,20 +572,20 @@ void QtWindow::setCurrentFile(const QString &fileName)
 
 void QtWindow::website()
 {
-    QDesktopServices::openUrl(QUrl("https://github.com/captnfab/PianoBooster/tree/master/doc"));
+    QDesktopServices::openUrl(QUrl("https://github.com/glixx/QPiano/tree/master/doc"));
 }
 
 void QtWindow::help()
 {
     QMessageBox msgBox(this);
-    msgBox.setWindowTitle (tr("Piano Booster Help"));
+    msgBox.setWindowTitle (tr("QPiano Help"));
     msgBox.setText(
             tr(
    "<h3>Getting Started</h3>"
 
 
    "<p>You need a <b>MIDI Piano Keyboard </b> and a <b>MIDI interface</b> for the PC. If you "
-   "don't have a MIDI keyboard you can still try out PianoBooster using the PC keyboard, 'X' is "
+   "don't have a MIDI keyboard you can still try out QPiano using the PC keyboard, 'X' is "
    "middle C.</p>"
 
    "<p>To hear the music you will need a <b>General Midi sound synthesizer</b>. "
@@ -594,7 +594,7 @@ void QtWindow::help()
    "<a href=\"http://www.fluidsynth.org\">FluidSynth</a> or <a href=\"http://timidity.sourceforge.net/\">Timidity</a></p>"
 
 
-   "<p>PianoBooster works best with MIDI files that have separate left and right piano parts "
+   "<p>QPiano works best with MIDI files that have separate left and right piano parts "
    "using MIDI channels 3 and 4."
 
    "<h3>Setting Up</h3>"
@@ -610,12 +610,12 @@ void QtWindow::help()
 
    "<h3>Hints on Playing the Piano</h3>"
    "<p>For hints on how to play the piano see: "
-   "<a href=\"https://github.com/captnfab/PianoBooster/blob/master/doc/pianohints.md\" ><b>Piano Hints</b></a></p>"
+   "<a href=\"https://github.com/glixx/QPiano/blob/master/doc/pianohints.md\" ><b>Piano Hints</b></a></p>"
 
    "<h3>More Information</h3>"
-   "<p>For more help please visit the PianoBooster "
-   "<a href=\"https://github.com/captnfab/PianoBooster/tree/master/doc\" ><b>website</b></a>, "
-   "the PianoBooster <a href=\"https://github.com/captnfab/PianoBooster/blob/master/doc/faq.md\" ><b>FAQ</b></a> "
+   "<p>For more help please visit the QPiano "
+   "<a href=\"https://github.com/glixx/QPiano/tree/master/doc\" ><b>website</b></a>, "
+   "the QPiano <a href=\"https://github.com/glixx/QPiano/blob/master/doc/faq.md\" ><b>FAQ</b></a> "
    "and the <a href=\"http://piano-booster.2625608.n2.nabble.com/Piano-Booster-Users-f1591936.html\" ><b>user forum</b></a>."
 
                 ));
@@ -626,11 +626,11 @@ void QtWindow::help()
 void QtWindow::about()
 {
     QMessageBox msgBox(this);
-    msgBox.setWindowTitle (tr("About Piano Booster"));
+    msgBox.setWindowTitle (tr("About QPiano"));
     msgBox.setText(
-            tr("<b>PianoBooster - Version %1</b> <br><br>").arg(PB_VERSION) +
+            tr("<b>QPiano - Version %1</b> <br><br>").arg(PB_VERSION) +
             tr("<b>Boost</b> your <b>Piano</b> playing skills!<br><br>") +
-            "<a href=\"https://github.com/captnfab/PianoBooster\" ><b>https://github.com/captnfab/PianoBooster</b></a><br><br>" +
+            "<a href=\"https://github.com/glixx/QPiano\" ><b>https://github.com/glixx/QPiano</b></a><br><br>" +
             tr("Copyright(c) L. J. Barman, 2008-2013; All rights reserved.<br>") +
             tr("Copyright(c) Fabien Givors, 2018-2019; All rights reserved.<br>") +
             "<br>" +

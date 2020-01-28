@@ -1,4 +1,4 @@
-# Cmake File for Piano Booster
+# Cmake File for QPiano
 # for the debug build type cmake -DCMAKE_BUILD_TYPE=Debug
 SET(CMAKE_BUILD_TYPE Release)
 SET(CMAKE_VERBOSE_MAKEFILE OFF)
@@ -25,7 +25,7 @@ IF(WIN32)
 ENDIF(WIN32)
 
 # set project's name
-PROJECT( pianobooster )
+PROJECT( qpiano )
 
 cmake_policy(SET CMP0020 NEW)
 cmake_policy(SET CMP0043 NEW)
@@ -44,7 +44,7 @@ endif(USE_FONT)
 add_compile_options("-DPREFIX=\"${CMAKE_INSTALL_PREFIX}\"")
 
 if (NOT DATA_DIR)
-    set(DATA_DIR "share/games/pianobooster")
+    set(DATA_DIR "share/games/qpiano")
 endif(NOT DATA_DIR)
 add_compile_options("-DDATA_DIR=\"${DATA_DIR}\"")
 
@@ -164,9 +164,9 @@ ENDIF(USE_TIMIDITY)
 
 
 # with SET() command you can change variables or define new ones
-# here we define PIANOBOOSTER_SRCS variable that contains a list of all .cpp files
+# here we define QPIANO_SRCS variable that contains a list of all .cpp files
 # note that we don't need \ at the end of line
-SET( PIANOBOOSTER_SRCS
+SET( QPIANO_SRCS
     QtMain.cpp
     QtWindow.cpp
     GuiTopBar.cpp
@@ -190,12 +190,12 @@ SET( PIANOBOOSTER_SRCS
     Bar.cpp
     Settings.cpp
     Merge.cpp
-    pianobooster.rc
-    images/pianobooster.ico
+    qpiano.rc
+    images/qpiano.ico
 )
 
 # another list, this time it includes all header files that should be treated with moc
-SET( PIANOBOOSTER_MOC_HDRS
+SET( QPIANO_MOC_HDRS
     QtWindow.h
     GlView.h
     GuiTopBar.h
@@ -208,7 +208,7 @@ SET( PIANOBOOSTER_MOC_HDRS
 )
 
 # some .ui files
-SET( PIANOBOOSTER_UIS
+SET( QPIANO_UIS
     ./GuiTopBar.ui
     ./GuiSidePanel.ui
     ./GuiMidiSetupDialog.ui
@@ -219,7 +219,7 @@ SET( PIANOBOOSTER_UIS
 )
 
 # and finally an resource file
-SET( PIANOBOOSTER_RCS
+SET( QPIANO_RCS
     ./application.qrc
 )
 
@@ -228,68 +228,68 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
-# here we instruct CMake to build "pianobooster" executable from all of the source files
+# here we instruct CMake to build "qpiano" executable from all of the source files
 IF(APPLE)
-    ADD_EXECUTABLE( pianobooster MACOSX_BUNDLE ${PIANOBOOSTER_SRCS}
-        ${PIANOBOOSTER_MOC_SRCS} ${PIANOBOOSTER_RC_SRCS}
-        ${PIANOBOOSTER_UI_HDRS} ${PIANOBOOSTER_RCS} )
+    ADD_EXECUTABLE( qpiano MACOSX_BUNDLE ${QPIANO_SRCS}
+        ${QPIANO_MOC_SRCS} ${QPIANO_RC_SRCS}
+        ${QPIANO_UI_HDRS} ${QPIANO_RCS} )
 ENDIF(APPLE)
 
 IF(UNIX)
-    ADD_EXECUTABLE( pianobooster ${PIANOBOOSTER_SRCS}
-        ${PIANOBOOSTER_MOC_SRCS} ${PIANOBOOSTER_RC_SRCS}
-        ${PIANOBOOSTER_UI_HDRS} ${PIANOBOOSTER_RCS} )
+    ADD_EXECUTABLE( qpiano ${QPIANO_SRCS}
+        ${QPIANO_MOC_SRCS} ${QPIANO_RC_SRCS}
+        ${QPIANO_UI_HDRS} ${QPIANO_RCS} )
 ENDIF(UNIX)
 
 IF(WIN32)
-    ADD_EXECUTABLE( pianobooster WIN32 ${PIANOBOOSTER_SRCS}
-        ${PIANOBOOSTER_MOC_SRCS} ${PIANOBOOSTER_RC_SRCS}
-        ${PIANOBOOSTER_UI_HDRS} ${PIANOBOOSTER_RCS} )
-    SET_TARGET_PROPERTIES(pianobooster PROPERTIES LINK_FLAGS "-mwindows")
+    ADD_EXECUTABLE( qpiano WIN32 ${QPIANO_SRCS}
+        ${QPIANO_MOC_SRCS} ${QPIANO_RC_SRCS}
+        ${QPIANO_UI_HDRS} ${QPIANO_RCS} )
+    SET_TARGET_PROPERTIES(qpiano PROPERTIES LINK_FLAGS "-mwindows")
 ENDIF(WIN32)
 
-qt5_use_modules(pianobooster Core Gui Widgets LinguistTools OpenGL Xml)
+qt5_use_modules(qpiano Core Gui Widgets LinguistTools OpenGL Xml)
 
 if(${CMAKE_VERSION} VERSION_LESS "3.13.0")
     message("Please consider to switch to CMake 3.13.0")
 else()
-    target_link_directories(pianobooster PUBLIC ${FTGL_LIBRARY_DIRS} ${JACK_LIBRARY_DIRS})
+    target_link_directories(qpiano PUBLIC ${FTGL_LIBRARY_DIRS} ${JACK_LIBRARY_DIRS})
 endif()
-target_link_libraries (pianobooster Qt5::Widgets Qt5::Xml Qt5::OpenGL ${OPENGL_LIBRARIES} ${FTGL_LIBRARY} ${RTMIDI_LIBRARY} ${JACK_LIBRARY})
+target_link_libraries (qpiano Qt5::Widgets Qt5::Xml Qt5::OpenGL ${OPENGL_LIBRARIES} ${FTGL_LIBRARY} ${RTMIDI_LIBRARY} ${JACK_LIBRARY})
 
-INSTALL( FILES ../pianobooster.desktop DESTINATION share/applications )
-INSTALL(TARGETS pianobooster RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
+INSTALL( FILES ../qpiano.desktop DESTINATION share/applications )
+INSTALL(TARGETS qpiano RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
 
 if(NOT NO_DOCS)
-    INSTALL( FILES ../README.md DESTINATION share/doc/pianobooster/ )
-    INSTALL( FILES ../doc/faq.md DESTINATION share/doc/pianobooster/ )
+    INSTALL( FILES ../README.md DESTINATION share/doc/qpiano/ )
+    INSTALL( FILES ../doc/faq.md DESTINATION share/doc/qpiano/ )
 endif()
 
 if(NOT NO_LICENSE)
-    INSTALL( FILES ../license.txt DESTINATION share/licenses/pianobooster/ )
+    INSTALL( FILES ../license.txt DESTINATION share/licenses/qpiano/ )
 endif()
 
 if(NOT NO_CHANGELOG)
-    INSTALL( FILES ../Changelog.txt DESTINATION share/doc/pianobooster/ )
+    INSTALL( FILES ../Changelog.txt DESTINATION share/doc/qpiano/ )
 endif()
 
 if(WITH_MAN)
-    INSTALL( FILES ../pianobooster.6  DESTINATION share/man/man6/ )
+    INSTALL( FILES ../qpiano.6  DESTINATION share/man/man6/ )
 endif()
 
 if(WITH_TIMIDITY)
-    INSTALL( FILES ../tools/timidity/pianobooster-timidity PERMISSIONS OWNER_EXECUTE OWNER_WRITE OWNER_READ GROUP_EXECUTE GROUP_READ WORLD_EXECUTE WORLD_READ DESTINATION ${CMAKE_INSTALL_BINDIR} )
-    INSTALL( FILES ../tools/timidity/pianobooster-timidity.desktop DESTINATION share/applications )
+    INSTALL( FILES ../tools/timidity/qpiano-timidity PERMISSIONS OWNER_EXECUTE OWNER_WRITE OWNER_READ GROUP_EXECUTE GROUP_READ WORLD_EXECUTE WORLD_READ DESTINATION ${CMAKE_INSTALL_BINDIR} )
+    INSTALL( FILES ../tools/timidity/qpiano-timidity.desktop DESTINATION share/applications )
 endif()
 
 if(WITH_FLUIDSYNTH)
-    INSTALL( FILES ../tools/fluidsynth/pianobooster-fluidsynth PERMISSIONS OWNER_EXECUTE OWNER_WRITE OWNER_READ GROUP_EXECUTE GROUP_READ WORLD_EXECUTE WORLD_READ DESTINATION ${CMAKE_INSTALL_BINDIR} )
-    INSTALL( FILES ../tools/fluidsynth/pianobooster-fluidsynth.desktop DESTINATION share/applications )
+    INSTALL( FILES ../tools/fluidsynth/qpiano-fluidsynth PERMISSIONS OWNER_EXECUTE OWNER_WRITE OWNER_READ GROUP_EXECUTE GROUP_READ WORLD_EXECUTE WORLD_READ DESTINATION ${CMAKE_INSTALL_BINDIR} )
+    INSTALL( FILES ../tools/fluidsynth/qpiano-fluidsynth.desktop DESTINATION share/applications )
 endif()
 
-INSTALL ( FILES ../icons/hicolor/32x32/pianobooster.png DESTINATION share/icons/hicolor/32x32/apps )
-INSTALL ( FILES ../icons/hicolor/48x48/pianobooster.png DESTINATION share/icons/hicolor/48x48/apps )
-INSTALL ( FILES ../icons/hicolor/64x64/pianobooster.png DESTINATION share/icons/hicolor/64x64/apps )
+INSTALL ( FILES ../icons/hicolor/32x32/qpiano.png DESTINATION share/icons/hicolor/32x32/apps )
+INSTALL ( FILES ../icons/hicolor/48x48/qpiano.png DESTINATION share/icons/hicolor/48x48/apps )
+INSTALL ( FILES ../icons/hicolor/64x64/qpiano.png DESTINATION share/icons/hicolor/64x64/apps )
 
 IF (UNIX AND NOT APPLE)
     INSTALL ( FILES ../music/BoosterMusicBooks.zip DESTINATION ${DATA_DIR}/music )

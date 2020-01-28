@@ -4,8 +4,8 @@
 build_with_cmake="1"
 
 pkgdesc='A MIDI file player that teaches you how to play the piano'
-origname='PianoBooster'
-pkgname='pianobooster'
+origname='QPiano'
+pkgname='qpiano'
 pkgver=0.7.2
 pkgrel=1
 makedepends=('cmake' 'alsa-lib' 'freetype2' 'ftgl' 'mesa' 'glu' 'qt5-base' 'qt5-tools' 'rtmidi' 'jack' 'fluidsynth' 'hicolor-icon-theme')
@@ -13,7 +13,7 @@ depends=('ttf-dejavu' 'unzip' 'hicolor-icon-theme' 'alsa-lib' 'freetype2' 'ftgl'
 optdepends=('qt5-translations')
 arch=('x86_64')
 groups=('qt5')
-url='https://github.com/captnfab/PianoBooster'
+url='https://github.com/glixx/QPiano'
 license=('GPL3+')
 source=("${origname}-${pkgver}.tar.gz")
 md5sums=('SKIP')

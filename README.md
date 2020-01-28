@@ -3,11 +3,11 @@
 INTRODUCTION
 ============
 
-Piano Booster is a MIDI file player that displays the musical notes AND teaches you how to
-play the piano. You can play along to any track in the midi file and PianoBooster will
-follow YOUR playing. PianoBooster makes sight reading fun!
+QPiano is a MIDI file player that displays the musical notes AND teaches you how to
+play the piano. You can play along to any track in the midi file and QPiano will
+follow YOUR playing. QPiano makes sight reading fun!
 
-Piano Booster is a free (Open Source) program available from: <https://github.com/captnfab/PianoBooster/>
+QPiano is a free (Open Source) program available from: <https://github.com/glixx/QPiano/>
 
 Original work by Louis J. Barman can be found here: <http://pianobooster.sourceforge.net/>
 
@@ -16,8 +16,8 @@ A huge thanks to him and to all the contributers.
 WINDOWS
 =======
 
-To run Piano Booster you need a MIDI Piano Keyboard and a MIDI interface for the PC. (If you
-don't have a MIDI keyboard you can still try out PianoBooster using the PC keyboard, 'x' is
+To run QPiano you need a MIDI Piano Keyboard and a MIDI interface for the PC. (If you
+don't have a MIDI keyboard you can still try out QPiano using the PC keyboard, 'x' is
 middle C - but a MIDI piano is recommend).
 
 To hear the music you will need a General Midi compatible sound synthesizer. Unfortunately
@@ -28,53 +28,47 @@ forum for possible solutions.
 
 Double Click on the EXE file of Windows installer for installation.
 
-[PianoBoosterInstall-0-6-4.exe](https://sourceforge.net/projects/pianobooster/files/pianobooster/0.6.4/PianoBoosterInstall-0-6-4.exe/download) (obsoleted)
-
 macOS
 =====
 
-To run Piano Booster you need a MIDI Piano Keyboard and a MIDI-USB interface if the keyboard
+To run QPiano you need a MIDI Piano Keyboard and a MIDI-USB interface if the keyboard
 does not have a USB interface. (If you don't have a MIDI keyboard you can still try out 
-PianoBooster using the computer's keyboard, 'x' is middle C).
+QPiano using the computer's keyboard, 'x' is middle C).
 
 To hear music from the computer you will need a General Midi compatible sound synthesizer.
 While there are many possible choices for the Mac (Timidity, FluidSynth or an external MIDI
 Synth), the easiest way is to use SimpleSynth, which can be obtained for free (MIT license)
 from: <http://notahat.com/simplesynth>
 
-This must be started before Pianobooster, and also allows to load custom Soundfonts.
+This must be started before QPiano, and also allows to load custom Soundfonts.
 
-Double Click on the DMG file containing PianoBooster, then just drag the pianobooster.app
+Double Click on the DMG file containing QPiano, then just drag the qpiano.app
 file wherever you wish (/Application folder is suggested).
-
-[pianobooster-mac-0.6.2.dmg](https://sourceforge.net/projects/pianobooster/files/pianobooster/0.6.2/pianobooster-mac-0.6.2.dmg/download) (obsoleted)
-
-[pianobooster-mac-0.6.5-alpha1.dmg](https://github.com/chrisballinger/PianoBooster/releases/tag/v0.6.5-alpha1) (not official)
 
 LINUX and BSD UNIX
 ==================
 
-To run Piano Booster you need a MIDI Piano Keyboard and a MIDI interface for the PC. (If you
-don't have a MIDI keyboard you can still try out PianoBooster using the PC keyboard, 'x' is
+To run QPiano you need a MIDI Piano Keyboard and a MIDI interface for the PC. (If you
+don't have a MIDI keyboard you can still try out QPiano using the PC keyboard, 'x' is
 middle C - but a MIDI piano is recommend).
 
 To hear music from the computer you will need a General Midi compatible sound synthesizer.
 While there are many possible choices for the Linux (Timidity, FluidSynth), the easiest way is
 to use Timidity. Timidity is BSD Unix is not workable, please use FluidSynth.
 
-This must be started before Pianobooster, and also allows to load custom Soundfonts.
+This must be started before QPiano, and also allows to load custom Soundfonts.
 
 Install RPM, DEB, ARCH, TGZ etc. package.
 
-Packages for Linux and BSD Unix are available in repositories of distributions [here](https://pkgs.org/download/pianobooster).
+Packages for Linux and BSD Unix are available in repositories of distributions [here](https://pkgs.org/download/qpiano).
 
 Packages for Linux (not for BSD Unix) are available in OBS repository:
 
-[pianobooster](https://software.opensuse.org/download.html?project=home%3Aloginov_alex_valer&package=pianobooster)
+[qpiano](https://software.opensuse.org/download.html?project=home%3Aloginov_alex_valer&package=qpiano)
 
-[pianobooster-timidity](https://software.opensuse.org/download.html?project=home%3Aloginov_alex_valer&package=pianobooster-timidity)
+[qpiano-timidity](https://software.opensuse.org/download.html?project=home%3Aloginov_alex_valer&package=qpiano-timidity)
 
-[pianobooster-fluidsynth](https://software.opensuse.org/download.html?project=home%3Aloginov_alex_valer&package=pianobooster-fluidsynth)
+[qpiano-fluidsynth](https://software.opensuse.org/download.html?project=home%3Aloginov_alex_valer&package=qpiano-fluidsynth)
 
 *Note:* The packages provided with distributions may not exist or are out of date,
 in which case you will have to compile from the source code.
@@ -83,69 +77,69 @@ However compiling from source is quite easy on Linux and BSD Unix.
 MIDI FILES
 ==========
 
-To run PianoBooster you will need some Midi files preferably with right and left piano
+To run QPiano you will need some Midi files preferably with right and left piano
 parts on channels 4 and 3. Some high quality demo MIDI files that are compatible with
-PianoBooster are available in doc/courses/*/ directories.
+QPiano are available in doc/courses/*/ directories.
 
 INSTRUCTIONS
 ============
 
 The MIDI input device is used to connect your piano keyboard to the PC. First ensure that your
 piano keyboard is connected up to the PC using a MIDI USB adaptor (or through a PC sound card).
-Once the Piano Booster application starts up you must first setup the midi input and midi
+Once the QPiano application starts up you must first setup the midi input and midi
 output interface from the Setup menu. Next open a midi file ".mid" or a karaoke ".kar" file
-using File/Open from the Piano Booster menu. Now choose the skill level, if you want to
+using File/Open from the QPiano menu. Now choose the skill level, if you want to
 just listen to the midi music  - select 'listen', to play along with a midi keyboard with
 the music following your playing - select 'follow you'. Finally click on the Play icon to
 start.
 
-It is recommended that you shut down all other programs while running Piano Booster so that
+It is recommended that you shut down all other programs while running QPiano so that
 the scrolling notes move smoothly across the screen.
 
 TRANSLATIONS
 ============
 
-PianoBooster isn't translated in your language? Help us, and we will gladly ship
+QPiano isn't translated in your language? Help us, and we will gladly ship
 new translations with it. Use our
-[Collaborative Translation Platform](https://www.transifex.com/Magic/pianobooster)
+[Collaborative Translation Platform](https://www.transifex.com/Magic/qpiano)
 (Transifex) to add your favorite languages.
 
 Using Transifex is not mandatory.
-You can translate by [Pull Request](https://github.com/captnfab/PianoBooster/pulls).
+You can translate by [Pull Request](https://github.com/glixx/QPiano/pulls).
 
 You need to translate:
 
-[Main program](translations/pianobooster_blank.ts)
+[Main program](translations/qpiano_blank.ts)
 
 [Courses](translations/music_blank.ts)
 
-[Desktop file #1](pianobooster.desktop)
+[Desktop file #1](qpiano.desktop)
 
-[Desktop file #2](tools/timidity/pianobooster-timidity.desktop)
+[Desktop file #2](tools/timidity/qpiano-timidity.desktop)
 
-[Desktop file #3](tools/fluidsynth/pianobooster-fluidsynth.desktop)
+[Desktop file #3](tools/fluidsynth/qpiano-fluidsynth.desktop)
 
-[Script](tools/fluidsynth/pianobooster-fluidsynth)
+[Script](tools/fluidsynth/qpiano-fluidsynth)
 
-[Script](tools/fluidsynth/pianobooster-timidity)
+[Script](tools/fluidsynth/qpiano-timidity)
 
 LICENSE
 =======
 
-Piano Booster is fully copyrighted by the author and all rights are reserved.
+QPiano is fully copyrighted by the author and all rights are reserved.
 
-PianoBooster is free software (Open Source software): you can redistribute it and/or modify
+QPiano is free software (Open Source software): you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by the Free Software
 Foundation, either version 3 of the License, or (at your option) any later version.
 
-PianoBooster is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+QPiano is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
 without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 See the GNU General Public License in the file "gplv3.txt" or from the web site
 <http://www.gnu.org/licenses/> or [gplv3.txt](gplv3.txt).
 
-The Piano Booster Documentation and Music are released under the Creative Commons License (CC-BY).
+The QPiano Documentation and Music are released under the Creative Commons License (CC-BY).
 
-[PianoBooster License](license.txt)
+[QPiano License](license.txt)
 
 SOURCE CODE
 ===========
@@ -153,16 +147,16 @@ SOURCE CODE
 Download and uncompress the archive file below and then follow the instructions in
 the *BUILD.md* file.
 
-[PianoBooster releases](https://github.com/captnfab/PianoBooster/releases)
+[QPiano releases](https://github.com/glixx/QPiano/releases)
 
-As part of GNU General Public License the source code for PianoBooster is available from
-the GitHub site  <https://github.com/captnfab/PianoBooster>. See the [BUILD.md](BUILD.md) for
+As part of GNU General Public License the source code for QPiano is available from
+the GitHub site  <https://github.com/glixx/QPiano>. See the [BUILD.md](BUILD.md) for
 instructions on how to build the source code.
 
 DEBUGGING
 =========
 
-To get a backtrace, build Piano Booster with DEBUG option 
+To get a backtrace, build QPiano with DEBUG option 
 
 type:
 
@@ -170,7 +164,7 @@ type:
 
 type:
 
-`gdb ./pianobooster`
+`gdb ./qpiano`
 
 then:
 
@@ -190,18 +184,18 @@ DOCUMENTATION
 BUGTRACKER
 ==========
 
-[Issues](https://github.com/captnfab/PianoBooster/issues)
+[Issues](https://github.com/glixx/QPiano/issues)
 
 CONTRIBUTING
 ============
 
-PianoBooster is community developing project since 2018. You're welcome with patches:
+QPiano is community developing project since 2018. You're welcome with patches:
 
-[Pull Requests](https://github.com/captnfab/PianoBooster/pulls)
+[Pull Requests](https://github.com/glixx/QPiano/pulls)
 
-We have many [issues](https://github.com/captnfab/PianoBooster/issues) always.
+We have many [issues](https://github.com/glixx/QPiano/issues) always.
 
-We are looking for musicians to make music for pianobooster. It can be educational courses or other melodies: [music sources](music/src). For more information look at [README.md](doc/courses/README.md) and [faq.md](doc/faq.md).
+We are looking for musicians to make music for qpiano. It can be educational courses or other melodies: [music sources](music/src). For more information look at [README.md](doc/courses/README.md) and [faq.md](doc/faq.md).
 
 PLATFORMS
 =========

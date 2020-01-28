@@ -1,7 +1,7 @@
-PianoBooster TODO
+QPiano TODO
 =================
 
-Piano Booster To Do tasks (in no particular order)
+QPiano To Do tasks (in no particular order)
 
 # EASY
 

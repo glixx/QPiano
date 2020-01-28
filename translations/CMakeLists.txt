@@ -1,22 +1,22 @@
 SET( TRANSLATIONS_FILES
-     pianobooster_ca.ts
-     pianobooster_cs.ts
-     pianobooster_da.ts
-     pianobooster_de.ts
-     pianobooster_es.ts
-     pianobooster_fr.ts
-     pianobooster_gl.ts
-     pianobooster_is.ts
-     pianobooster_it.ts
-     pianobooster_ja.ts
-     pianobooster_nb.ts
-     pianobooster_nl.ts
-     pianobooster_pl.ts
-     pianobooster_ru.ts
-     pianobooster_sk.ts
-     pianobooster_sv.ts
-     pianobooster_uk.ts
-     pianobooster_zh.ts
+     qpiano_ca.ts
+     qpiano_cs.ts
+     qpiano_da.ts
+     qpiano_de.ts
+     qpiano_es.ts
+     qpiano_fr.ts
+     qpiano_gl.ts
+     qpiano_is.ts
+     qpiano_it.ts
+     qpiano_ja.ts
+     qpiano_nb.ts
+     qpiano_nl.ts
+     qpiano_pl.ts
+     qpiano_ru.ts
+     qpiano_sk.ts
+     qpiano_sv.ts
+     qpiano_uk.ts
+     qpiano_zh.ts
      music_ru.ts
      music_uk.ts
 )
@@ -25,7 +25,7 @@ if(INSTALL_ALL_LANGS)
 file (GLOB TRANSLATIONS_FILES "*.ts")   
 endif()
 
-get_filename_component(full_path_blank_ts ${CMAKE_CURRENT_SOURCE_DIR}/pianobooster_blank.ts ABSOLUTE)
+get_filename_component(full_path_blank_ts ${CMAKE_CURRENT_SOURCE_DIR}/qpiano_blank.ts ABSOLUTE)
 list(REMOVE_ITEM TRANSLATIONS_FILES ${full_path_blank_ts})
 
 get_filename_component(full_path_blank_ts ${CMAKE_CURRENT_SOURCE_DIR}/music_blank.ts ABSOLUTE)

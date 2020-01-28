@@ -7,20 +7,20 @@
 
     Copyright (c)   2008-2013, L. J. Barman, all rights reserved
 
-    This file is part of the PianoBooster application
+    This file is part of the QPiano application
 
-    PianoBooster is free software: you can redistribute it and/or modify
+    QPiano is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    PianoBooster is distributed in the hope that it will be useful,
+    QPiano is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with PianoBooster.  If not, see <http://www.gnu.org/licenses/>.
+    along with QPiano.  If not, see <http://www.gnu.org/licenses/>.
 
 */
 
@@ -58,7 +58,7 @@
 #endif
 
 
-CSettings::CSettings(QtWindow *mainWindow) : QSettings(CSettings::IniFormat, CSettings::UserScope, "PianoBooster", "Piano Booster"),
+CSettings::CSettings(QtWindow *mainWindow) : QSettings(CSettings::IniFormat, CSettings::UserScope, "QPiano", "QPiano"),
                                  m_mainWindow(mainWindow)
 {
     // It is all done in the initialisation list
@@ -243,12 +243,12 @@ void CSettings::loadXmlFile()
     }
 
     QDomElement root = m_domDocument.documentElement();
-    if (root.tagName() != "pianobooster")
+    if (root.tagName() != "qpiano")
     {
         m_domDocument.clear();
-        QDomComment comment =    m_domDocument.createComment("Piano Booster Configuration file");
+        QDomComment comment =    m_domDocument.createComment("QPiano Configuration file");
         m_domDocument.appendChild(comment);
-        root = m_domDocument.createElement("pianobooster");
+        root = m_domDocument.createElement("qpiano");
         m_domDocument.appendChild(root);
     }
 
@@ -402,7 +402,7 @@ void CSettings::loadSettings()
 {
     unzipBoosterMusicBooks();
     // Set default values
-    setValue("PianoBooster/Version", PB_VERSION);
+    setValue("QPiano/Version", PB_VERSION);
     setDefaultValue("ShortCuts/LeftHand", "F2");
     setDefaultValue("ShortCuts/BothHands","F3");
     setDefaultValue("ShortCuts/RightHand","F4");
@@ -429,7 +429,7 @@ void CSettings::unzipBoosterMusicBooks()
     const QString ZIPFILENAME("BoosterMusicBooks.zip");
 
 
-    if (value("PianoBooster/MusicRelease", 0).toInt() < MUSIC_RELEASE)
+    if (value("QPiano/MusicRelease", 0).toInt() < MUSIC_RELEASE)
     {
         QString resourceDir = QApplication::applicationDirPath() + "/../music/";
 
@@ -513,7 +513,7 @@ void CSettings::unzipBoosterMusicBooks()
 		QString fileName(destMusicDir.absolutePath() + "/BoosterMusicBooks" + QString::number(MUSIC_RELEASE) + "/Beginner Course/01-StartWithMiddleC.mid");
 		openSongFile(fileName);
 		m_mainWindow->setCurrentFile(fileName);
-		setValue("PianoBooster/MusicRelease", MUSIC_RELEASE);
+		setValue("QPiano/MusicRelease", MUSIC_RELEASE);
     }
 }
 
@@ -531,7 +531,7 @@ void CSettings::setCurrentSongName(const QString & name)
 
     m_guiSidePanel->refresh();
     m_guiTopBar->refresh(true);
-    m_mainWindow->setWindowTitle("Piano Booster - " + m_song->getSongTitle());
+    m_mainWindow->setWindowTitle("QPiano - " + m_song->getSongTitle());
     updateTutorPage();
 }
 

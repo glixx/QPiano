@@ -1,0 +1,48 @@
+[Desktop Entry]
+Type=Application
+Name=QPiano
+GenericName=Piano Teacher
+Comment=Learn the piano just by playing a game
+Icon=qpiano
+Exec=qpiano %f
+Terminal=false
+MimeType=audio/x-karaoke;audio/x-midi;audio/midi;
+Categories=Music;Education;
+Keywords=audio;midi;music;piano;education;learning;playing;songs;
+
+
+# Translations
+Comment[gl]=Aprender piano mentres se xoga
+GenericName[gl]=Profesor de piano
+Comment[de]=Lerne das Klavier nur durch Spielen des Spiels
+GenericName[de]=Pianolehrer
+Comment[fi]=Opi pianoa pelaamalla peliä
+GenericName[fi]=Pianon opettaja
+Comment[pl]=Naucz się gry na pianinie grając w grę
+GenericName[pl]=Nauczyciel gry na pianinie
+Comment[pt]=Aprenda piano apenas jogando um jogo
+GenericName[pt]=Professor de Piano
+Comment[pt_BR]=Aprenda o piano apenas jogando
+GenericName[pt_BR]=Professor de Piano
+Comment[ru]=Изучайте пианино просто играя в игру
+GenericName[ru]=Обучение пианино
+Comment[zh_HK]=通過玩遊戲來學習鋼琴
+GenericName[zh_HK]=鋼琴老師
+Comment[is]=Lærðu á píanó bara með því að spila leik
+GenericName[is]=Píanókennari
+Comment[it]=Imparare a suonare il pianoforte semplicemente giocando
+Comment[ja]=ゲームをプレイするだけでピアノを練習
+Comment[cs]=Naučte se hře na klavír jednoduše hraním hry
+GenericName[cs]=Učitel klavíru
+Comment[ko]=게임을 플레이하면서 피아노를 배운다
+Comment[sv]=Lär dig piano bara genom att spela ett spel
+GenericName[sv]=Pianolärare
+Comment[es]=Aprender piano mientras juega
+GenericName[es]=Profesor de piano
+Comment[uk]=Ігрова форма навчання гри на піаніно
+GenericName[uk]=Навчання гри на піаніно
+Comment[da]=Lær at spille piano ved bare at spille
+Comment[fr]=Apprendre le piano en jouant à un jeu
+GenericName[fr]=Professeur de piano
+Comment[nl]=Leer pianospelen door het spelen van een spel
+GenericName[nl]=Pianoleerprogramma

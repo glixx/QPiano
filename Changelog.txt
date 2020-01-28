@@ -97,7 +97,7 @@ v0.6.1: (11 March 2009)
 - May have reduced the flickering especially on windows with a low spec machine
 - Added a piano volume slider (so you can adjust the volume of your piano with compared
   to the accompaniment)
-- Added an icon for the Piano Booster main window.
+- Added an icon for the main window.
 - Fix a bug when swapping hands in the middle of a piece.
 - Fix a bug left or right now correctly dim the other stave.
 - Added start-up checks that Open GL is present.

@@ -33,4 +33,4 @@ override_dh_compress:
 refresh-tr:
 	dh_testdir
 	@echo Update translations
-	lupdate -verbose pianobooster.pro
+	lupdate -verbose qpiano.pro

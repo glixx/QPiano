@@ -2,20 +2,20 @@
 
     Copyright (c)   2008-2013, L. J. Barman, all rights reserved
 
-    This file is part of the PianoBooster application
+    This file is part of the QPiano application
 
-    PianoBooster is free software: you can redistribute it and/or modify
+    QPiano is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    PianoBooster is distributed in the hope that it will be useful,
+    QPiano is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with PianoBooster.  If not, see <http://www.gnu.org/licenses/>.
+    along with QPiano.  If not, see <http://www.gnu.org/licenses/>.
 
 ****************************************************************************/
 
@@ -33,9 +33,9 @@
 #include "version.txt"
 
 int main(int argc, char *argv[]){
-    QCoreApplication::setOrganizationName("PianoBooster");
-    QCoreApplication::setOrganizationDomain("https://github.com/captnfab/PianoBooster");
-    QCoreApplication::setApplicationName("Piano Booster");
+    QCoreApplication::setOrganizationName("QPiano");
+    QCoreApplication::setOrganizationDomain("https://github.com/glixx/QPiano");
+    QCoreApplication::setApplicationName("QPiano");
     QCoreApplication::setApplicationVersion(PB_VERSION);
 
     {
@@ -43,7 +43,7 @@ int main(int argc, char *argv[]){
         QStringList argList = QCoreApplication::arguments();
         for (QString arg:argList){
             if (arg=="--version"){
-                fprintf(stdout, "pianobooster " PB_VERSION "\n");
+                fprintf(stdout, "qpiano " PB_VERSION "\n");
                 exit(0);
             }
         }
@@ -53,7 +53,7 @@ int main(int argc, char *argv[]){
 
     if (!QGLFormat::hasOpenGL()) {
         QMessageBox::information(0, QMessageBox::tr("OpenGL support"),
-                 QMessageBox::tr("This system does not support OpenGL which is needed to run Piano Booster."));
+                 QMessageBox::tr("This system does not support OpenGL which is needed to run QPiano."));
         return -1;
     }
 

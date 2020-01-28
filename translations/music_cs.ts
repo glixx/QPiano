@@ -46,12 +46,12 @@
 &lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt; &lt;em&gt;Nepřemýšlejte o tom jaké prsty použít, prostě použíte to co vám je &lt;strong&gt;nejvíce přirozené&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</translation>
     </message>
     <message>
-       <source>&lt;body bgcolor=&quot;#FFFFC0&quot;&gt;&lt;p&gt;&lt;strong&gt;Green Sleeves&lt;/strong&gt; introduces the key of &lt;strong&gt;G major&lt;/strong&gt; which has &lt;strong&gt;one Sharp - F#&lt;/strong&gt;. Normally the sharp symbol is not shown when &lt;strong&gt;F#&lt;/strong&gt; is played (but turning on &lt;strong&gt;Courtesy Accidentals&lt;/strong&gt; from the Piano Booster setup/preferences menu will show all accidentals in the key signature). The melody is in the right hand with a simple left hand part.&lt;/p&gt;
+       <source>&lt;body bgcolor=&quot;#FFFFC0&quot;&gt;&lt;p&gt;&lt;strong&gt;Green Sleeves&lt;/strong&gt; introduces the key of &lt;strong&gt;G major&lt;/strong&gt; which has &lt;strong&gt;one Sharp - F#&lt;/strong&gt;. Normally the sharp symbol is not shown when &lt;strong&gt;F#&lt;/strong&gt; is played (but turning on &lt;strong&gt;Courtesy Accidentals&lt;/strong&gt; from the QPiano setup/preferences menu will show all accidentals in the key signature). The melody is in the right hand with a simple left hand part.&lt;/p&gt;
 
-&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; &lt;em&gt;You can show &lt;strong&gt;Courtesy Accidentals&lt;/strong&gt; from the PianoBooster setup/preferences menu. But remember to &lt;strong&gt;turn them off&lt;/strong&gt; when you get more skilled.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</source>
+&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; &lt;em&gt;You can show &lt;strong&gt;Courtesy Accidentals&lt;/strong&gt; from the QPiano setup/preferences menu. But remember to &lt;strong&gt;turn them off&lt;/strong&gt; when you get more skilled.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</source>
         <translation>&lt;body bgcolor=&quot;#FFFFC0&quot;&gt;&lt;p&gt;&lt;strong&gt;Green Sleeves&lt;/strong&gt; se hraje v tónině &lt;strong&gt;G dur&lt;/strong&gt;, která obsahuje i &lt;strong&gt;fis - F#&lt;/strong&gt;. Normálně se při hraní &lt;strong&gt;F#&lt;/strong&gt; křížky neukazují (pokud ale zapnete &lt;strong&gt;Pomáhající posuvky&lt;/strong&gt; z nastavení, aplikace vám bude všechny posuvky v dané tónině ukazovat). Melodie se hraje pravou rukou s tím, že levá ruka má taky svou jednoduchou část.&lt;/p&gt;
 
-&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt; &lt;em&gt;V nastavení Piano Boosteru můžete zapnout &lt;strong&gt;Pomáhající posuvky&lt;/strong&gt;. Ovšem nezapomeňte je &lt;strong&gt;vypnout&lt;/strong&gt; až je nebudete potřebovat.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</translation>
+&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt; &lt;em&gt;V nastavení QPianou můžete zapnout &lt;strong&gt;Pomáhající posuvky&lt;/strong&gt;. Ovšem nezapomeňte je &lt;strong&gt;vypnout&lt;/strong&gt; až je nebudete potřebovat.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</translation>
     </message>
     <message>
        <source>&lt;body bgcolor=&quot;#FFFFC0&quot;&gt;&lt;p&gt;&lt;strong&gt;Amazing Grace&lt;/strong&gt; introduces the key of &lt;strong&gt;F major&lt;/strong&gt; which has a &lt;strong&gt;single Flat - Bb&lt;/strong&gt;. Again the flat symbol is not normally shown on the score when playing Bb. Practice both hands separately at first and then when ready reduce the speed to 70% when trying both hands for the first time.&lt;/p&gt;
@@ -74,7 +74,7 @@
 
 &lt;p&gt;Use your &lt;strong&gt;thumb&lt;/strong&gt; for &lt;strong&gt;C&lt;/strong&gt;, your &lt;strong&gt;middle finger&lt;/strong&gt; for &lt;strong&gt;E&lt;/strong&gt; and your &lt;strong&gt;little finger&lt;/strong&gt; for &lt;strong&gt;G&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; &lt;em&gt;If you don&apos;t know the names of the notes on the score then turn on &lt;strong&gt;Show Note Names&lt;/strong&gt; from the PianoBooster &lt;strong&gt;Setup/Preferences&lt;/strong&gt; menu.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</source>
+&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; &lt;em&gt;If you don&apos;t know the names of the notes on the score then turn on &lt;strong&gt;Show Note Names&lt;/strong&gt; from the QPiano &lt;strong&gt;Setup/Preferences&lt;/strong&gt; menu.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</source>
         <translation>&lt;body bgcolor=&quot;#FFFFC0&quot;&gt;&lt;p&gt;Skladba &lt;strong&gt;Chord of C Major&lt;/strong&gt;, poprvé představí akord &lt;strong&gt;C dur&lt;/strong&gt;, který má tři noty &lt;strong&gt;jednočárkované C&lt;/strong&gt;, &lt;strong&gt;E&lt;/strong&gt; a &lt;strong&gt;G&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Použíjte &lt;strong&gt;palec&lt;/strong&gt; pro &lt;strong&gt;C&lt;/strong&gt;, &lt;strong&gt;prostředníček&lt;/strong&gt; pro &lt;strong&gt;E&lt;/strong&gt; a &lt;strong&gt;malíček&lt;/strong&gt; pro &lt;strong&gt;G&lt;/strong&gt;.&lt;/p&gt;
@@ -86,12 +86,12 @@
 
 &lt;p&gt;Use your &lt;strong&gt;thumb&lt;/strong&gt; for &lt;strong&gt;C&lt;/strong&gt;, your &lt;strong&gt;index finger&lt;/strong&gt; for &lt;strong&gt;D&lt;/strong&gt;, . . . , all the way up to your &lt;strong&gt;little finger&lt;/strong&gt; for &lt;strong&gt;G&lt;/strong&gt;. Make sure you keep using the correct finger for each note.&lt;/p&gt;
 
-&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; &lt;em&gt;If you don&apos;t know the notes on the piano then &lt;strong&gt;label the piano keys&lt;/strong&gt; using the PianoBooster &lt;strong&gt;Note Chart&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</source>
+&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; &lt;em&gt;If you don&apos;t know the notes on the piano then &lt;strong&gt;label the piano keys&lt;/strong&gt; using the QPiano &lt;strong&gt;Note Chart&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</source>
         <translation>&lt;body bgcolor=&quot;#FFFFC0&quot;&gt;&lt;p&gt;&lt;strong&gt;Up And Down&lt;/strong&gt; využívá všechny prsty vaší pravé ruky pro hraní &lt;strong&gt;tóniny C dur&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Použíjte &lt;strong&gt;palec&lt;/strong&gt; pro &lt;strong&gt;C&lt;/strong&gt;, &lt;strong&gt;ukazováček&lt;/strong&gt; pro &lt;strong&gt;D&lt;/strong&gt;, . . . , a tak dále až k &lt;strong&gt;malíčku&lt;/strong&gt; pro &lt;strong&gt;G&lt;/strong&gt;. Nejdůležitější je použít vždy správny prst pro tu či onu notu.&lt;/p&gt;
 
-&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt; &lt;em&gt;Pokud nevíte, kde se jednotlivé noty na klavíru nacházejí &lt;strong&gt;označte si jednotlivé klávesy&lt;/strong&gt; pomocí PianoBooster &lt;strong&gt;Tónové stupnice&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</translation>
+&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt; &lt;em&gt;Pokud nevíte, kde se jednotlivé noty na klavíru nacházejí &lt;strong&gt;označte si jednotlivé klávesy&lt;/strong&gt; pomocí QPiano &lt;strong&gt;Tónové stupnice&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</translation>
     </message>
     <message>
        <source>&lt;body bgcolor=&quot;#FFFFC0&quot;&gt;&lt;p&gt;This is a simplified version of &lt;strong&gt;Clair De La Lune&lt;/strong&gt; that uses just three notes &lt;strong&gt;C D&lt;/strong&gt; and &lt;strong&gt;E&lt;/strong&gt; from your right hand. First find &lt;strong&gt;middle C&lt;/strong&gt; and always use your &lt;strong&gt;thumb&lt;/strong&gt; for this note, then for &lt;strong&gt;D&lt;/strong&gt; use your &lt;strong&gt;first finger&lt;/strong&gt; and for &lt;strong&gt;E&lt;/strong&gt; use &lt;strong&gt;middle finger&lt;/strong&gt;.&lt;/p&gt;
@@ -106,7 +106,7 @@
 
 &lt;p&gt;Use your &lt;strong&gt;little finger&lt;/strong&gt; on the left hand for &lt;strong&gt;F&lt;/strong&gt;, your &lt;strong&gt;middle finger&lt;/strong&gt; for &lt;strong&gt;A&lt;/strong&gt; and your &lt;strong&gt;thumb&lt;/strong&gt; for &lt;strong&gt;C&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; &lt;em&gt;If you don&apos;t know the names of the notes on the score then turn on &lt;strong&gt;Show Note Names&lt;/strong&gt; from the PianoBooster &lt;strong&gt;Setup/Preferences&lt;/strong&gt; menu.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</source>
+&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; &lt;em&gt;If you don&apos;t know the names of the notes on the score then turn on &lt;strong&gt;Show Note Names&lt;/strong&gt; from the QPiano &lt;strong&gt;Setup/Preferences&lt;/strong&gt; menu.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</source>
         <translation>&lt;body bgcolor=&quot;#FFFFC0&quot;&gt;&lt;p&gt;Teď se pokuste zahrát &lt;strong&gt;levou rukou&lt;/strong&gt; &lt;strong&gt;akord F dur&lt;/strong&gt;. Tři noty v akordu zahrané současně se nazývají trojzvuk. F dur má stejnou podobu jako C dur, kterou jste hráli dříve pouze se hraje na jinou část klavíru.&lt;/p&gt;
 
 &lt;p&gt;Použíjte &lt;strong&gt;malíček&lt;/strong&gt; na vaší levé ruce pro &lt;strong&gt;F&lt;/strong&gt;, &lt;strong&gt;prostředníček&lt;/strong&gt; pro &lt;strong&gt;A&lt;/strong&gt; a &lt;strong&gt;palec&lt;/strong&gt; pro &lt;strong&gt;C&lt;/strong&gt;.&lt;/p&gt;

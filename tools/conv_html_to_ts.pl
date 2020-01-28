@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 # This script generates music_blank.ts
-# License: same with Pianobooster
+# License: same with QPiano
 # Author: DanSoft <http://dansoft.krasnokamensk.ru/>
 
 use strict;

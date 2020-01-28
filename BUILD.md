@@ -16,7 +16,7 @@ Finally as root type:
 
 `make install -C build`
 
-(The pianobooster binary executable is now in the "build" subdirectory.)
+(The qpiano binary executable is now in the "build" subdirectory.)
 
 To build a debug version create a dir called "debug" and change to that dir and then type:
 
@@ -26,7 +26,7 @@ To build a debug version create a dir called "debug" and change to that dir and 
 
 See [DEB](pkgs/deb) for more details.
 
-See [RPM](pkgs/rpm/pianobooster.spec) for more details.
+See [RPM](pkgs/rpm/qpiano.spec) for more details.
 
 See [ARCH](pkgs/arch/PKGBUILD) for more details.
 
@@ -53,7 +53,7 @@ To make a self contained application bundle use QT's macdeployqt tool (included 
 
 To compile in Windows install the Open Source version of Qt and CMake and optionally Geany.
 When installing Qt select the option to download and install the MinGW compiler. Open the
-Qt Command Prompt and then change to the "PianoBooster" directory and then type the
+Qt Command Prompt and then change to the "QPiano" directory and then type the
 command below:
 
 `"C:\Program Files\CMake 2.6\bin\cmake.exe" -G "MinGW Makefiles" .`
@@ -62,7 +62,7 @@ Once this is completed type:
 
 `make`
 
-Or alternatively you can install QtCreator and then open the pianobooster.pro.
+Or alternatively you can install QtCreator and then open the qpiano.pro.
 
 # Build options
 
@@ -92,6 +92,6 @@ Or alternatively you can install QtCreator and then open the pianobooster.pro.
 
 **USE_FONT**: build with specified font; null by default.
 
-**DATA_DIR**: build with specified data directory; "share/games/pianobooster" is default.
+**DATA_DIR**: build with specified data directory; "share/games/qpiano" is default.
 
 **NO_LANGS**: do not install languages; disabled by default.

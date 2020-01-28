@@ -1,9 +1,9 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Source: https://github.com/captnfab/PianoBooster
+Source: https://github.com/glixx/QPiano
 Upstream-Contact:
- Fabien Givors <captnfab@chezlefab.net>
+ Alexey Loginov <alexl@mageia.org>
  Louis J. Barman <louisjb@users.sourceforge.net>
-Upstream-Name: Piano Booster
+Upstream-Name: QPiano
 Debianized-By: Miriam Ruiz <little_miry@yahoo.es>
 Debianized-Date: Wed, 04 Mar 2009 02:22:56 +0100
 
@@ -11,6 +11,7 @@ Files: *
 Copyright:
  2008-2013, Louis J. Barman <louisjb@users.sourceforge.net>
  2018-2019, Fabien Givors <captnfab@chezlefab.net>
+ 2019-2020, Alexey Loginov <alexl@mageia.org>
 License: GPL-3+
 
 Files: src/3rdparty/rtmidi/*
@@ -44,7 +45,7 @@ Files: music/*
 Copyright:
  2008-2013, Louis J. Barman <louisjb@users.sourceforge.net>
 License: CC-BY
- These pieces of music have been created to work with PianoBooster and
+ These pieces of music have been created to work with QPiano and
  have the creative commons copyright.
  .
  The complete text of this License can be found in

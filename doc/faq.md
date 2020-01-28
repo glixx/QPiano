@@ -2,7 +2,7 @@
 
 ## Where are the music files?
 
-Piano Booster uses MIDI music files (.mid) or karaoke files (.kar) to play music.
+QPiano uses MIDI music files (.mid) or karaoke files (.kar) to play music.
 
 See [this thread](http://piano-booster.2625608.n2.nabble.com/Pieces-of-music-that-I-have-enjoyed-playing-please-add-to-this-list-td1600345.html)
 on the forum which list useful source of midi files on the net.
@@ -18,7 +18,7 @@ Google search: Taylor's Traditional Tune Book, and download the "English Tunes".
 
 ## CC and MIDI: What Songs are Legal to Share
 
-Piano Booster will only distribute MIDI files submitted to the project under the Creative Commons (CC) License.
+QPiano will only distribute MIDI files submitted to the project under the Creative Commons (CC) License.
 
 MIDI files created by hand constitute "original work". Original work can be released under the CC license. (see [forum discussion](http://piano-booster.2625608.n2.nabble.com/Creating-music-for-PianoBooster-using-MMA-Everyone-can-help-td4167350.html#a4167350))
 
@@ -61,7 +61,7 @@ The MMA software can greatly simplify creating accompanying "background" music.
 
 ## Open a MIDI File
 
-Select File -> Open from PianoBooster main menu and then choose the .mid file or the .kar file. If you put all your MIDI files in adjacent directories then each directory will appear as books that can be accessed using the -book drop down list- and then each MIDI file can be accessed from the song drop down list.
+Select File -> Open from QPiano main menu and then choose the .mid file or the .kar file. If you put all your MIDI files in adjacent directories then each directory will appear as books that can be accessed using the -book drop down list- and then each MIDI file can be accessed from the song drop down list.
 
 ## Listen to the MIDI music
 
@@ -69,7 +69,7 @@ When learning a new piece of music it is recommended that you first listen to th
 
 ## Play along with the MIDI music
 
-Piano Booster has been specially designed so that you can play along with the MIDI music using a piano keyboard. Ensure that MIDI input is correctly set up. You can choose which hand to play select 'right', 'both' or 'left' from the hands selection. If you choose to play just a single part then Piano Booster will automatically play the other part for you. There are two different ways of playing along the 'follow you' mode and the 'play along' mode. When learning a new piece of music the follow you mode makes it much easier but you should progress to the 'play along' method as this ensure that you play with the correct timing.
+QPiano has been specially designed so that you can play along with the MIDI music using a piano keyboard. Ensure that MIDI input is correctly set up. You can choose which hand to play select 'right', 'both' or 'left' from the hands selection. If you choose to play just a single part then QPiano will automatically play the other part for you. There are two different ways of playing along the 'follow you' mode and the 'play along' mode. When learning a new piece of music the follow you mode makes it much easier but you should progress to the 'play along' method as this ensure that you play with the correct timing.
 
 ## Playing the piano with the music 'following your' playing
 
@@ -78,17 +78,17 @@ The music will start playing and at the same time you should playing along to th
 
 ##  Connecting MIDI Hardware
 
-While Piano Booster can take input from the computer keyboard, it is recommended to use a MIDI capable keyboard or piano. This section assumes you are using a keyboard or piano with either a USB MIDI port or MIDI input/output ports with a MIDI/USB adapter.
+While QPiano can take input from the computer keyboard, it is recommended to use a MIDI capable keyboard or piano. This section assumes you are using a keyboard or piano with either a USB MIDI port or MIDI input/output ports with a MIDI/USB adapter.
 
 MIDI or Musical Instrument Digital Interface allows electronic musical equipment to communicate with each other. MIDI works like a pipeline; data (the music notes) "flows" in one direction. Every MIDI device port is labeled as either IN/input or OUT/output. The Output of the first device goes to an Input of the next device.
 
 If your keyboard has a USB MIDI port, then a standard USB cable to the computer will provide both input from keys and output to the keyboard speakers (if there are speakers).
 
-If the keyboard as MIDI IN/OUT ports, then the OUTPUT port of keyboard must be connected the INPUT of the USB MIDI adapter. To hear the Piano booster output on the keyboard speakers, the OUTPUT of the USB adapter must be connected to the INPUT port on the keyboard.
+If the keyboard as MIDI IN/OUT ports, then the OUTPUT port of keyboard must be connected the INPUT of the USB MIDI adapter. To hear the QPiano output on the keyboard speakers, the OUTPUT of the USB adapter must be connected to the INPUT port on the keyboard.
 
 ## How do I hear the sound on Linux, BSD Unix?
 
-To hear the sound Piano Booster needs a MIDI sound generator,
+To hear the sound QPiano needs a MIDI sound generator,
 there are two different General Midi sound generators available on Linux, 'fluidsynth' and 'timidity'.
 
 It's recommends to use 'fluidsynth' for BSD Unix.
@@ -139,7 +139,7 @@ Flag `-l`: don't connect to LASH server.
 For more information on running fluidsynth with low latency see
 [this page](https://github.com/FluidSynth/fluidsynth/wiki/LowLatency).
 
-On PianoBooster set the Setup/Midi Setup/Midi Output Device: to `FLUID Synth (fs):0`
+On QPiano set the Setup/Midi Setup/Midi Output Device: to `FLUID Synth (fs):0`
 
 If you get problems with unsteady playback or the audio cutting out then try closing all other programs,
 turning off your wireless network and unplug any network cable.
@@ -150,9 +150,9 @@ system (sudo modprobe snd-seq-midi).
 You might prefer to use qsynth as GUI interface to fluidsynth for easy setting
 of Reverbs, chorus effects, etc.
 
-Using 'timidity': [wrapper script and desktop file](https://github.com/captnfab/PianoBooster/tree/master/tools/timidity).
+Using 'timidity': [wrapper script and desktop file](https://github.com/glixx/QPiano/tree/master/tools/timidity).
 
-Using 'fluidsynth': [wrapper script and desktop file](https://github.com/captnfab/PianoBooster/tree/master/tools/fluidsynth).
+Using 'fluidsynth': [wrapper script and desktop file](https://github.com/glixx/QPiano/tree/master/tools/fluidsynth).
 
 ## How do I hear the sound on Arch Linux?
 
@@ -184,7 +184,7 @@ stop pulseaudio:
 
 run script:
 
-`pianobooster-fluidsynth`
+`qpiano-fluidsynth`
 
 start pulseaudio after:
 
@@ -198,11 +198,11 @@ While there are many possible choices General Midi sound generators for the Mac
 (Timidity, FluidSynth or an external MIDI Synth), the easiest way is to use
 SimpleSynth, which can be obtained for free (MIT license) frome [here](http://notahat.com/simplesynth).
 
-This must be started before Pianobooster, and also allows to load custom Soundfonts.
+This must be started before QPiano, and also allows to load custom Soundfonts.
 
 ## How to use Fluidsynth with JACK
 
-Just enable `use_jack="1"` in /usr/bin/pianobooster-fluidsynth. If `use_jack="0"`, then JACK is disabled.
+Just enable `use_jack="1"` in /usr/bin/qpiano-fluidsynth. If `use_jack="0"`, then JACK is disabled.
 
 ## Why is there a delay between pressing the note and hearing the sound?
 
@@ -263,7 +263,7 @@ then try decreasing the latency slightly.
 
 It is always best to use a value that shows you are
 playing *slightly ahead of the beat* rather than behind the beat.
-(This is because Piano Booster in **'Follow You'** mode will slow down
+(This is because QPiano in **'Follow You'** mode will slow down
 the music if you are playing behind the beat.)
 
 To disable the latency fix enter a value of zero.

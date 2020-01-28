@@ -1,0 +1,44 @@
+[Desktop Entry]
+Name=QPiano (TiMidity)
+Comment=A MIDI file player that teaches you how to play the piano, with TiMidity sequencer
+GenericName=Piano Teacher
+Exec=qpiano-timidity %f
+Icon=qpiano
+Terminal=false
+Type=Application
+Categories=Music;Education;
+MimeType=audio/x-karaoke;audio/x-midi;audio/midi;
+Keywords=audio;midi;music;piano;education;learning;playing;songs;
+
+
+# Translations
+Comment[gl]=Un reprodutor de ficheiros MIDI que lle ensina como tocar o piano, co secuenciador TiMidity
+GenericName[gl]=Profesor de piano
+Comment[sv]=En MIDI-filspelare som lär dig hur man spelar piano, med TiMidity sekvenserare
+GenericName[sv]=Pianolärare
+Comment[pl]=Odtwarzacz plików MIDI, który uczy, jak grać na pianinie, za pomocą sekwencera TiMidity
+GenericName[pl]=Nauczyciel gry na pianinie
+Comment[pt]=Um reprodutor de ficheiro MIDI que ensina a tocar piano, com o sequenciador TiMidity
+GenericName[pt]=Professor de Piano
+Comment[pt_BR]=Um reprodutor de arquivos MIDI que ensina a tocar piano, com o sequenciador TiMidity
+GenericName[pt_BR]=Professor de Piano
+Comment[ru]=Проигрыватель MIDI-файлов, который научит вас играть на пианино с помощью секвенсора TiMidity
+GenericName[ru]=Обучение пианино
+Comment[zh_HK]=一個 MIDI 播放器，教你如何使用 TiMidity 音序器彈奏鋼琴
+GenericName[zh_HK]=鋼琴老師
+GenericName[is]=Píanókennari
+Comment[cs]=Přehrávač souborů MIDI, který vás učí hře na klavír, se sekvencerem TiMidity
+GenericName[cs]=Učitel klavíru
+GenericName[ku]=مامۆستای پیانۆ
+Comment[es]=Un reproductor de archivos MIDI que te enseña a tocar el piano, con el secuenciador TiMidity
+GenericName[es]=Profesor de piano
+Comment[uk]=Програвач файлів MIDI, який навчить вас гри на піаніно за допомогою синтезатора TiMidity
+GenericName[uk]=Навчання гри на піаніно
+Comment[fi]=MIDI-tiedostosoitin, joka opettaa sinut soittamaan pianoa TiMidity-sekvenssillä
+GenericName[fi]=Pianon opettaja
+Comment[fr]=Un lecteur de fichiers MIDI qui vous apprend à jouer du piano, avec le séquenceur TiMidity
+GenericName[fr]=Professeur de piano
+Comment[nl]=Een MIDI-bestandsspeler die je leert hoe je piano moet spelen - met ingebouwde TiMidity-sequencer
+GenericName[nl]=Pianoleerprogramma
+Comment[de]=Ein MIDI-Dateispieler, der dir beibringt, wie man Piano spielt, mit einem TiMidity-Sequencer
+GenericName[de]=Pianolehrer

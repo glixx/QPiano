@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # This script creates BoosterMusicBooks.zip and generates music_blank.ts
-# License: same with Pianobooster
+# License: same with QPiano
 # Author: Alexey Loginov <alexl@mageia.org>
 
 if [ ! -f "/usr/bin/markdown" ]

@@ -36,9 +36,9 @@
         <translation type="unfinished"/>
     </message>
     <message>
-       <source>&lt;body bgcolor=&quot;#FFFFC0&quot;&gt;&lt;p&gt;&lt;strong&gt;Green Sleeves&lt;/strong&gt; introduces the key of &lt;strong&gt;G major&lt;/strong&gt; which has &lt;strong&gt;one Sharp - F#&lt;/strong&gt;. Normally the sharp symbol is not shown when &lt;strong&gt;F#&lt;/strong&gt; is played (but turning on &lt;strong&gt;Courtesy Accidentals&lt;/strong&gt; from the Piano Booster setup/preferences menu will show all accidentals in the key signature). The melody is in the right hand with a simple left hand part.&lt;/p&gt;
+       <source>&lt;body bgcolor=&quot;#FFFFC0&quot;&gt;&lt;p&gt;&lt;strong&gt;Green Sleeves&lt;/strong&gt; introduces the key of &lt;strong&gt;G major&lt;/strong&gt; which has &lt;strong&gt;one Sharp - F#&lt;/strong&gt;. Normally the sharp symbol is not shown when &lt;strong&gt;F#&lt;/strong&gt; is played (but turning on &lt;strong&gt;Courtesy Accidentals&lt;/strong&gt; from the QPiano setup/preferences menu will show all accidentals in the key signature). The melody is in the right hand with a simple left hand part.&lt;/p&gt;
 
-&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; &lt;em&gt;You can show &lt;strong&gt;Courtesy Accidentals&lt;/strong&gt; from the PianoBooster setup/preferences menu. But remember to &lt;strong&gt;turn them off&lt;/strong&gt; when you get more skilled.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</source>
+&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; &lt;em&gt;You can show &lt;strong&gt;Courtesy Accidentals&lt;/strong&gt; from the QPiano setup/preferences menu. But remember to &lt;strong&gt;turn them off&lt;/strong&gt; when you get more skilled.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -60,19 +60,19 @@
 
 &lt;p&gt;Use your &lt;strong&gt;thumb&lt;/strong&gt; for &lt;strong&gt;C&lt;/strong&gt;, your &lt;strong&gt;middle finger&lt;/strong&gt; for &lt;strong&gt;E&lt;/strong&gt; and your &lt;strong&gt;little finger&lt;/strong&gt; for &lt;strong&gt;G&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; &lt;em&gt;If you don&apos;t know the names of the notes on the score then turn on &lt;strong&gt;Show Note Names&lt;/strong&gt; from the PianoBooster &lt;strong&gt;Setup/Preferences&lt;/strong&gt; menu.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</source>
+&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; &lt;em&gt;If you don&apos;t know the names of the notes on the score then turn on &lt;strong&gt;Show Note Names&lt;/strong&gt; from the QPiano &lt;strong&gt;Setup/Preferences&lt;/strong&gt; menu.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</source>
         <translation>&lt;body bgcolor=&quot;#FFFFC0&quot;&gt;&lt;p&gt;La pieza &lt;strong&gt;Acorde de Do Mayor&lt;/strong&gt; te presenta el acorde de &lt;strong&gt;Do Mayor&lt;/strong&gt; el cual tiene tres notas &lt;strong&gt;Do medio&lt;/strong&gt;, &lt;strong&gt;Mi&lt;/strong&gt; y &lt;strong&gt;Fa&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Usa tu &lt;strong&gt;pulgar&lt;/strong&gt; para &lt;strong&gt;Do&lt;/strong&gt;, tu &lt;strong&gt;dedo medio&lt;/strong&gt; para &lt;strong&gt;Mi&lt;/strong&gt; y tu &lt;strong&gt;dedo meñique&lt;/strong&gt; para &lt;strong&gt;Fa&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Consejo:&lt;/strong&gt; &lt;em&gt;Si no conoce los nombres de las notas en la puntuación, active &lt;strong&gt;Mostrar nombres de notas&lt;/strong&gt; desde el menú de PianoBooster &lt;strong&gt;Configuración / Preferencias&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</translation>
+&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Consejo:&lt;/strong&gt; &lt;em&gt;Si no conoce los nombres de las notas en la puntuación, active &lt;strong&gt;Mostrar nombres de notas&lt;/strong&gt; desde el menú de QPiano &lt;strong&gt;Configuración / Preferencias&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</translation>
     </message>
     <message>
        <source>&lt;body bgcolor=&quot;#FFFFC0&quot;&gt;&lt;p&gt;&lt;strong&gt;Up And Down&lt;/strong&gt; uses all the fingers of your right hand to play the first five notes of the &lt;strong&gt;scale of C major&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Use your &lt;strong&gt;thumb&lt;/strong&gt; for &lt;strong&gt;C&lt;/strong&gt;, your &lt;strong&gt;index finger&lt;/strong&gt; for &lt;strong&gt;D&lt;/strong&gt;, . . . , all the way up to your &lt;strong&gt;little finger&lt;/strong&gt; for &lt;strong&gt;G&lt;/strong&gt;. Make sure you keep using the correct finger for each note.&lt;/p&gt;
 
-&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; &lt;em&gt;If you don&apos;t know the notes on the piano then &lt;strong&gt;label the piano keys&lt;/strong&gt; using the PianoBooster &lt;strong&gt;Note Chart&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</source>
+&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; &lt;em&gt;If you don&apos;t know the notes on the piano then &lt;strong&gt;label the piano keys&lt;/strong&gt; using the QPiano &lt;strong&gt;Note Chart&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -86,7 +86,7 @@
 
 &lt;p&gt;Use your &lt;strong&gt;little finger&lt;/strong&gt; on the left hand for &lt;strong&gt;F&lt;/strong&gt;, your &lt;strong&gt;middle finger&lt;/strong&gt; for &lt;strong&gt;A&lt;/strong&gt; and your &lt;strong&gt;thumb&lt;/strong&gt; for &lt;strong&gt;C&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; &lt;em&gt;If you don&apos;t know the names of the notes on the score then turn on &lt;strong&gt;Show Note Names&lt;/strong&gt; from the PianoBooster &lt;strong&gt;Setup/Preferences&lt;/strong&gt; menu.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</source>
+&lt;font color=&quot;#ff0000&quot;&gt;&lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; &lt;em&gt;If you don&apos;t know the names of the notes on the score then turn on &lt;strong&gt;Show Note Names&lt;/strong&gt; from the QPiano &lt;strong&gt;Setup/Preferences&lt;/strong&gt; menu.&lt;/em&gt;&lt;/p&gt;&lt;/font&gt;&lt;/body&gt;</source>
         <translation type="unfinished"/>
     </message>
     <message>
