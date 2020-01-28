@@ -170,6 +170,38 @@ case $lang in
           MES2="Грешка: Не намирам fluidsynth!"
           MES5="Моля, опитайте отново!"
           ;;
+     sv)
+          MES1="Fel: SoundFonts SF1 och SF2 hittades inte!"
+          MES2="Fel: fluidsynth kördes inte!"
+          MES3="Fel: SoundFont SF hittades inte!"
+          MES4="Ljuddrivrutiner som stöds är jack, alsa!"
+          MES5="Vänligen försök igen!"
+          MES6="Fel: fluidsynth kunde inte hittas eller är skadad!"
+          MES7="Fel: jackd hittades inte!"
+          MES8="Startar fluidsynth..."
+          MES9="Vänligen vänta 10 sekunder till!"
+          MES10="Fluidsynth har inte ALSA-stöd!"
+          MES11="Slå på med JACK..."
+          MES12="Fel: pianobooster hittades inte!"
+          MES13="Fel: Inget stöd för ljuddrivrutin:"
+          MES14="Ignorerar..."
+          ;;
+     pt_BR)
+          MES1="Erro: SoundFonts SF1 e SF2 não foram encontrados!"
+          MES2="Erro: fluidsynth não foi iniciado!"
+          MES3="Erro: SoundFont SF não encontrado!"
+          MES4="Drivers de áudio suportados: JACK e ALSA!"
+          MES5="Tente novamente, por favor!"
+          MES6="Erro: fluidsynth não foi encontrado ou está quebrado!"
+          MES7="Erro: jackd não foi encontrado!"
+          MES8="Iniciando fluidsynth..."
+          MES9="Espere mais 10 segundos, por favor!"
+          MES10="Fluidsynth não tem suporte ao ALSA!"
+          MES11="Switching on using JACK..."
+          MES12="Erro: pianobooster não encontrado!"
+          MES13="Erro: Não há suporte para o driver de áudio."
+          MES14="Ignorando..."
+          ;;
      pl)
           MES1="Błąd: SoundFonts SF1 i SF2 nie zostały znalezione!"
           MES2="Błąd: fluidsynth nie został uruchomiony!"
