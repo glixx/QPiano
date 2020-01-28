@@ -1,4 +1,4 @@
-![logo](../logo/Logotype_horizontal.png)
+![logo](../icons/hicolor/64x64/qpiano.png)
 
 # Boost your Piano playing skills
 
