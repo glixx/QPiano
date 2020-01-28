@@ -131,9 +131,9 @@ QtWindow::QtWindow()
 
 
 #if defined (Q_OS_LINUX) || defined (Q_OS_UNIX)
-    m_glWidget->m_cfg_openGlOptimise = 2; //  two is full GlOptimise
+    m_glWidget->m_cfg_openGlOptimise = 0; //  two is full GlOptimise
 #else
-    m_glWidget->m_cfg_openGlOptimise = 1; //  1 is full GlOptimise
+    m_glWidget->m_cfg_openGlOptimise = 0; //  1 is full GlOptimise
 #endif
 
     if  (m_settings->value("Display/OpenGlOptimise").toString() == "true") // this used to be true for backward compatability
