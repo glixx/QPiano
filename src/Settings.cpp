@@ -510,7 +510,7 @@ void CSettings::unzipBoosterMusicBooks()
              return;
         }
 #endif       
-		QString fileName(destMusicDir.absolutePath() + "/BoosterMusicBooks" + QString::number(MUSIC_RELEASE) + "/Booster Music/01-ClairDeLaLune.mid");
+		QString fileName(destMusicDir.absolutePath() + "/BoosterMusicBooks" + QString::number(MUSIC_RELEASE) + "/Beginner Course/01-StartWithMiddleC.mid");
 		openSongFile(fileName);
 		m_mainWindow->setCurrentFile(fileName);
 		setValue("PianoBooster/MusicRelease", MUSIC_RELEASE);
