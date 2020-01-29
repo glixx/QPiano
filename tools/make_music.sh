@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# This script creates BoosterMusicBooks.zip and generates music_blank.ts
+# This script creates QPianoMusicBooks.zip and generates music_blank.ts
 # License: same with QPiano
 # Author: Alexey Loginov <alexl@mageia.org>
 
@@ -24,23 +24,23 @@ echo "Done for determining MUSIC_RELEASE"
 echo "MUSIC_RELEASE=$version"
 
 echo "Preparing temporary directory..."
-rm -rf music/BoosterMusicBooks$version
+rm -rf music/QPianoMusicBooks$version
 echo "Done for preparing temporary directory"
 
 echo "Creating subdirectories in temporary directory..."
-mkdir -p music/BoosterMusicBooks$version/BeginnerCourse/InfoPages
-mkdir -p music/BoosterMusicBooks$version/BoosterMusic/InfoPages
+mkdir -p music/QPianoMusicBooks$version/BeginnerCourse/InfoPages
+mkdir -p music/QPianoMusicBooks$version/BoosterMusic/InfoPages
 echo "Done for creating subdirectories in temporary directory"
 
 echo "Copying MIDI files..."
-cp -f doc/courses/BeginnerCourse/*.mid music/BoosterMusicBooks$version/BeginnerCourse/
-cp -f doc/courses/BoosterMusic/*.mid music/BoosterMusicBooks$version/BoosterMusic/
+cp -f doc/courses/BeginnerCourse/*.mid music/QPianoMusicBooks$version/BeginnerCourse/
+cp -f doc/courses/BoosterMusic/*.mid music/QPianoMusicBooks$version/BoosterMusic/
 echo "Done for copying MIDI files"
 
 echo "Generating HTML files from MD files..."
 for file in `find ./music/src -name ??-*.md`
 do
-  file_html=`echo $file|sed "s|_en.md|_en.html|g"|sed "s|./music/src|music/BoosterMusicBooks$version|g"|sed "s|/0|/InfoPages/0|g"`
+  file_html=`echo $file|sed "s|_en.md|_en.html|g"|sed "s|./music/src|music/QPianoMusicBooks$version|g"|sed "s|/0|/InfoPages/0|g"`
   markdown $file > $file_html
   awk 'NR>1{printf "\n"} {printf $0}' $file_html > "$file_html"_tmp
   mv -f "$file_html"_tmp $file_html
@@ -54,24 +54,24 @@ done
 echo "Done for generating HTML files from MD files"
 
 echo "Renaming directories..."
-mv -f "music/BoosterMusicBooks$version/BeginnerCourse" "music/BoosterMusicBooks$version/Beginner Course"
-mv -f "music/BoosterMusicBooks$version/BoosterMusic" "music/BoosterMusicBooks$version/Booster Music"
+mv -f "music/QPianoMusicBooks$version/BeginnerCourse" "music/QPianoMusicBooks$version/Beginner Course"
+mv -f "music/QPianoMusicBooks$version/BoosterMusic" "music/QPianoMusicBooks$version/Booster Music"
 echo "Done for renaming directories"
 
 echo "Creating ZIP file..."
 pushd music
-rm -f BoosterMusicBooks.zip
-zip -r BoosterMusicBooks.zip BoosterMusicBooks$version
+rm -f QPianoMusicBooks.zip
+zip -r QPianoMusicBooks.zip QPianoMusicBooks$version
 popd
 echo "Done for creating ZIP file"
 
 popd
 
 echo "Generating music_blank.ts by conv_html_to_ts.pl..."
-./conv_html_to_ts.pl ../music/BoosterMusicBooks$version
+./conv_html_to_ts.pl ../music/QPianoMusicBooks$version
 mv music_blank.ts ../translations/
 echo "Done for generating music_blank.ts by conv_html_to_ts.pl"
 
 echo "Deleting temporary directory..."
-rm -rf ../music/BoosterMusicBooks$version
+rm -rf ../music/QPianoMusicBooks$version
 echo "Done for deleting temporary directory"

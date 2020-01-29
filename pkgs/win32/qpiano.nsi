@@ -144,7 +144,7 @@ Section "Install Section"
 
     CreateDirectory $INSTDIR\music
     SetOutPath $INSTDIR\music
-    File FilesForRelease\music\BoosterMusicBooks.zip
+    File FilesForRelease\music\QPianoMusicBooks.zip
 
     CreateDirectory $INSTDIR\platforms
     SetOutPath $INSTDIR\platforms
@@ -164,7 +164,7 @@ Section "Install Section"
 
     CreateDirectory "$DOCUMENTS\My Music"
     SetOutPath "$DOCUMENTS\My Music"
-    File /r FilesForRelease\BoosterMusicBooks3
+    File /r FilesForRelease\QPianoMusicBooks3
 
     SetOutPath $INSTDIR
 

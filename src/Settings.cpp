@@ -400,7 +400,7 @@ void CSettings::writeSettings()
 
 void CSettings::loadSettings()
 {
-    unzipBoosterMusicBooks();
+    unzipQPianoMusicBooks();
     // Set default values
     setValue("QPiano/Version", PB_VERSION);
     setDefaultValue("ShortCuts/LeftHand", "F2");
@@ -423,10 +423,10 @@ void CSettings::loadSettings()
 
 }
 
-void CSettings::unzipBoosterMusicBooks()
+void CSettings::unzipQPianoMusicBooks()
 {
     // Set default value
-    const QString ZIPFILENAME("BoosterMusicBooks.zip");
+    const QString ZIPFILENAME("QPianoMusicBooks.zip");
 
 
     if (value("QPiano/MusicRelease", 0).toInt() < MUSIC_RELEASE)
@@ -510,7 +510,7 @@ void CSettings::unzipBoosterMusicBooks()
              return;
         }
 #endif       
-		QString fileName(destMusicDir.absolutePath() + "/BoosterMusicBooks" + QString::number(MUSIC_RELEASE) + "/Beginner Course/01-StartWithMiddleC.mid");
+		QString fileName(destMusicDir.absolutePath() + "/QPianoMusicBooks" + QString::number(MUSIC_RELEASE) + "/Beginner Course/01-StartWithMiddleC.mid");
 		openSongFile(fileName);
 		m_mainWindow->setCurrentFile(fileName);
 		setValue("QPiano/MusicRelease", MUSIC_RELEASE);

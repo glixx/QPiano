@@ -267,7 +267,7 @@ unix {
    icon64.files = icons/hicolor/64x64/qpiano.png
 
    music.path = $$PREFIX/$$DATA_DIR/music
-   music.files = music/BoosterMusicBooks.zip
+   music.files = music/QPianoMusicBooks.zip
 
    INSTALLS += target desktop icon32 icon48 icon64 music
 }

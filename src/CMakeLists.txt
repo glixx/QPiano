@@ -292,11 +292,11 @@ INSTALL ( FILES ../icons/hicolor/48x48/qpiano.png DESTINATION share/icons/hicolo
 INSTALL ( FILES ../icons/hicolor/64x64/qpiano.png DESTINATION share/icons/hicolor/64x64/apps )
 
 IF (UNIX AND NOT APPLE)
-    INSTALL ( FILES ../music/BoosterMusicBooks.zip DESTINATION ${DATA_DIR}/music )
+    INSTALL ( FILES ../music/QPianoMusicBooks.zip DESTINATION ${DATA_DIR}/music )
 ENDIF (UNIX AND NOT APPLE)
 
 IF (WIN32)
-    INSTALL( FILES ../music/BoosterMusicBooks.zip DESTINATION . )
+    INSTALL( FILES ../music/QPianoMusicBooks.zip DESTINATION . )
 ENDIF (WIN32)
 
 if(USE_FONT)
