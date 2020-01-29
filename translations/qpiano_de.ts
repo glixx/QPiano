@@ -1835,103 +1835,108 @@
         <translation>Copyright (c) Fabien Givors, 2018-2019; Alle Rechte vorbehalten. &lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../src/QtWindow.cpp" line="637"/>
+        <location filename="../src/QtWindow.cpp" line="636"/>
+        <source>Copyright(c) Alexey Loginov, 2019-2020; All rights reserved.&lt;br&gt;</source>
+        <translation>Copyright (c) Alexey Loginov, 2019-2020; Alle Rechte vorbehalten. &lt;br&gt;</translation>
+    </message>
+    <message>
+        <location filename="../src/QtWindow.cpp" line="638"/>
         <source>This program is made available under the terms of the GNU General Public License version 3 as published by the Free Software Foundation.&lt;br&gt;&lt;br&gt;</source>
         <translation>Dieses Programm wird unter den Bedingungen der GNU General Public License Version 3, wie sie von der Free Software Foundation veröffentlicht wurde, zur Verfügung gestellt.&lt;br&gt;&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../src/QtWindow.cpp" line="643"/>
+        <location filename="../src/QtWindow.cpp" line="644"/>
         <source>This program also contains RtMIDI: realtime MIDI i/o C++ classes&lt;br&gt;</source>
         <translation>Dieses Programm enthält auch RtMIDI: Echtzeit MIDI i/o C++ Klassen&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../src/QtWindow.cpp" line="644"/>
+        <location filename="../src/QtWindow.cpp" line="645"/>
         <source>Copyright(c) Gary P. Scavone, 2003-2019; All rights reserved.</source>
         <translation>Copyright (c) Gary P. Scavone, 2003-2019; Alle Rechte vorbehalten.</translation>
     </message>
     <message>
-        <location filename="../src/QtWindow.cpp" line="653"/>
+        <location filename="../src/QtWindow.cpp" line="654"/>
         <source>space</source>
         <translation>Leertaste</translation>
     </message>
     <message>
-        <location filename="../src/QtWindow.cpp" line="666"/>
+        <location filename="../src/QtWindow.cpp" line="667"/>
         <source>PC Keyboard ShortCuts</source>
         <translation>PC Tastaturkombinationen</translation>
     </message>
     <message>
-        <location filename="../src/QtWindow.cpp" line="668"/>
+        <location filename="../src/QtWindow.cpp" line="669"/>
         <source>&lt;h2&gt;&lt;center&gt;Keyboard shortcuts&lt;/center&gt;&lt;/h2&gt;&lt;p&gt;The following PC keyboard shortcuts have been defined.&lt;/p&gt;&lt;center&gt;&lt;table  border=&apos;1&apos; cellspacing=&apos;0&apos; cellpadding=&apos;4&apos; &gt;</source>
         <translation>&lt;h2&gt;&lt;center&gt;Tastenkürzel&lt;/center&gt;&lt;/h2&gt;&lt;p&gt;Die folgenden Tastenkürzel wurden konfiguriert.&lt;/p&gt;&lt;center&gt;&lt;table  border=&apos;1&apos; cellspacing=&apos;0&apos; cellpadding=&apos;4&apos; &gt;</translation>
     </message>
     <message>
-        <location filename="../src/QtWindow.cpp" line="674"/>
+        <location filename="../src/QtWindow.cpp" line="675"/>
         <source>&lt;tr&gt;&lt;th&gt;Action&lt;/th&gt;&lt;th&gt;Key&lt;/th&gt;&lt;/tr&gt;</source>
         <translation>&lt;tr&gt;1&lt;th&gt;2Aktion&lt;/th&gt;3&lt;th&gt;4Taste&lt;/th&gt;5&lt;/tr&gt;6</translation>
     </message>
     <message>
-        <location filename="../src/QtWindow.cpp" line="680"/>
+        <location filename="../src/QtWindow.cpp" line="681"/>
         <source>Choose the right hand</source>
         <translation>Wählen Sie die rechte Hand</translation>
     </message>
     <message>
-        <location filename="../src/QtWindow.cpp" line="681"/>
+        <location filename="../src/QtWindow.cpp" line="682"/>
         <source>Choose both hands</source>
         <translation>Wählen Sie beide Hände</translation>
     </message>
     <message>
-        <location filename="../src/QtWindow.cpp" line="682"/>
+        <location filename="../src/QtWindow.cpp" line="683"/>
         <source>Choose the left Hand</source>
         <translation>Wählen Sie die linke Hand</translation>
     </message>
     <message>
-        <location filename="../src/QtWindow.cpp" line="683"/>
+        <location filename="../src/QtWindow.cpp" line="684"/>
         <source>Play from start toggle</source>
         <translation>Vom Startmarker weg spielen</translation>
     </message>
     <message>
-        <location filename="../src/QtWindow.cpp" line="684"/>
+        <location filename="../src/QtWindow.cpp" line="685"/>
         <source>Play Pause Toggle</source>
         <translation>Start/Stop Marker</translation>
     </message>
     <message>
-        <location filename="../src/QtWindow.cpp" line="685"/>
         <location filename="../src/QtWindow.cpp" line="686"/>
+        <location filename="../src/QtWindow.cpp" line="687"/>
         <source>Increase the speed by 5%</source>
         <translation>Geschwindigkeit um 5% erhöhen</translation>
     </message>
     <message>
-        <location filename="../src/QtWindow.cpp" line="687"/>
+        <location filename="../src/QtWindow.cpp" line="688"/>
         <source>Change to the Next Song</source>
         <translation>Zum nächsten Lied springen</translation>
     </message>
     <message>
-        <location filename="../src/QtWindow.cpp" line="688"/>
+        <location filename="../src/QtWindow.cpp" line="689"/>
         <source>Change to the Previous Song</source>
         <translation>Zum vorherigen Lied springen</translation>
     </message>
     <message>
-        <location filename="../src/QtWindow.cpp" line="689"/>
+        <location filename="../src/QtWindow.cpp" line="690"/>
         <source>Change to the Next Book</source>
         <translation>Zum nächsten Buch springen</translation>
     </message>
     <message>
-        <location filename="../src/QtWindow.cpp" line="690"/>
+        <location filename="../src/QtWindow.cpp" line="691"/>
         <source>Change to the Previous Book</source>
         <translation>Zum vorherigen Buch springen</translation>
     </message>
     <message>
-        <location filename="../src/QtWindow.cpp" line="692"/>
+        <location filename="../src/QtWindow.cpp" line="693"/>
         <source>&lt;tr&gt;&lt;td&gt;Fake Piano keys&lt;/td&gt;&lt;td&gt;X is middle C&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; &lt;/center&gt;&lt;br&gt;</source>
         <translation>&lt;tr&gt;&lt;td&gt;Falsche Klaviertasten&lt;/td&gt;&lt;td&gt;X ist C3&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; &lt;/center&gt;&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../src/QtWindow.cpp" line="715"/>
+        <location filename="../src/QtWindow.cpp" line="716"/>
         <source>Open Midi File</source>
         <translation>MIDI Datei öffnen</translation>
     </message>
     <message>
-        <location filename="../src/QtWindow.cpp" line="716"/>
+        <location filename="../src/QtWindow.cpp" line="717"/>
         <source>Midi Files</source>
         <translation>MIDI Dateien</translation>
     </message>

@@ -1,5 +1,6 @@
 Copyright (c) 2008-2013 Louis James Barman, all rights reserved
 Copyright (c) 2018-2019 Fabien Givors, all rights reserved
+Copyright (c) 2019-2020 Alexey Loginov, all rights reserved
 
 The QPiano application
 
@@ -24,6 +25,4 @@ Contributors:
  - Owen
  - Miriam Ruiz
  - Olivier Humbert
- - Nuno Jesus
- - Alexey Loginov
  - DanSoft (http://dansoft.krasnokamensk.ru/)

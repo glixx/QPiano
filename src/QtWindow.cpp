@@ -633,6 +633,7 @@ void QtWindow::about()
             "<a href=\"https://github.com/glixx/QPiano\" ><b>https://github.com/glixx/QPiano</b></a><br><br>" +
             tr("Copyright(c) L. J. Barman, 2008-2013; All rights reserved.<br>") +
             tr("Copyright(c) Fabien Givors, 2018-2019; All rights reserved.<br>") +
+            tr("Copyright(c) Alexey Loginov, 2019-2020; All rights reserved.<br>") +
             "<br>" +
             tr("This program is made available "
                 "under the terms of the GNU General Public License version 3 as published by "
