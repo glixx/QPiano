@@ -4,6 +4,7 @@ v0.7.2
 - Set the Video optimisation default to none
 - Fix not color was on by default
 - Change the default startup song on a fresh install from “Booster Music/01-ClairDeLaLune.mid” to "Beginner Course/01-StartWithMiddleC.mid”
+- New icons
 
 v0.7.0: (03 September 2019)
 - Switch on Qt5

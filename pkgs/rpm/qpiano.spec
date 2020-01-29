@@ -90,7 +90,7 @@ is really recommended.
 %license license.txt
 %{_bindir}/%{name}
 %{_datadir}/applications/%{name}.desktop
-%{_datadir}/icons/hicolor/*/apps/%{name}.png
+%{_datadir}/icons/hicolor/*/apps/%{name}.*
 %dir %{_datadir}/games/%{name}
 %dir %{_datadir}/games/%{name}/music
 %dir %{_datadir}/games/%{name}/translations
