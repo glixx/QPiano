@@ -198,6 +198,9 @@ even without a plugged-in MIDI keyboard.
        -DWITH_FLUIDSYNTH=ON \
        -DUSE_FLUIDSYNTH=ON \
        -DUSE_TIMIDITY=ON
+%if 0%{?mageia} > 7
+%cmake_build
+%endif
 %else
 %qmake_qt5 \
        USE_SYSTEM_FONT=ON \
@@ -211,8 +214,13 @@ even without a plugged-in MIDI keyboard.
        WITH_FLUIDSYNTH=ON \
        USE_FLUIDSYNTH=ON \
        USE_TIMIDITY=ON
-%endif
+%if 0%{?mageia} > 7
 %make_build
+%endif
+%endif
+%if ! 0%{?mageia} || 0%{?mageia} <= 7
+%make_build
+%endif
 
 %install
 %if %{build_with_cmake}
