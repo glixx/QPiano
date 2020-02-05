@@ -233,7 +233,7 @@ private:
     CScore* m_score;
     QAction *m_separatorAct;
 
-    enum { MAX_RECENT_FILES = 10 };
+    enum { MAX_RECENT_FILES = 20 };
     QAction *m_recentFileActs[MAX_RECENT_FILES];
 
 };
