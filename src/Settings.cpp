@@ -433,11 +433,11 @@ void CSettings::unzipQPianoMusicBooks()
     {
         QString resourceDir = QApplication::applicationDirPath() + "/../music/";
 
-        ppLogTrace("unzipBoosterMusicBooks resourceDir1 %s", qPrintable(resourceDir));
+        ppLogTrace("unzipQPianoMusicBooks resourceDir1 %s", qPrintable(resourceDir));
 
         if (!QFile::exists(resourceDir + ZIPFILENAME))
             resourceDir = QApplication::applicationDirPath() + "/../../music/";
-        ppLogTrace("unzipBoosterMusicBooks resourceDir2 %s", qPrintable(resourceDir));
+        ppLogTrace("unzipQPianoMusicBooks resourceDir2 %s", qPrintable(resourceDir));
 
         if (!QFile::exists(resourceDir + ZIPFILENAME))
         {
