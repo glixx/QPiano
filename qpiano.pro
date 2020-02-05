@@ -20,8 +20,6 @@ INSTALL_ALL_LANGS="ON"
 
 TRANSLATIONS = $$files(translations/*.ts)
 
-CONFIG(debug, debug|release): DEFINES += IS_DEBUG
-
 HEADERS   = src/QtWindow.h \
             src/GlView.h \
             src/GuiTopBar.h \

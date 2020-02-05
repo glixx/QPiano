@@ -32,10 +32,6 @@ cmake_policy(SET CMP0043 NEW)
 # enable warnings
 add_compile_options(-Wall)
 
-if (${CMAKE_BUILD_TYPE} MATCHES "Debug")
-    ADD_DEFINITIONS(-DIS_DEBUG)
-endif (${CMAKE_BUILD_TYPE} MATCHES "Debug")
-
 if(USE_FONT)
     add_compile_options("-DUSE_FONT=\"${USE_FONT}\"")
 endif(USE_FONT)
@@ -310,3 +306,11 @@ endif(NOT USE_SYSTEM_FONT)
 if (NOT NO_LANGS)
     ADD_SUBDIRECTORY(../translations ../build/translations)
 endif(NOT NO_LANGS)
+
+if(DEBUG_LOG_TRACE)
+    ADD_DEFINITIONS(-DPB_LOG_TRACE)
+endif()
+
+if(DEBUG_LOG_TIMING)
+    ADD_DEFINITIONS(-DPB_LOG_TIMING)
+endif()
