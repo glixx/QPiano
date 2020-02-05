@@ -433,25 +433,20 @@ void CSettings::unzipQPianoMusicBooks()
     {
         QString resourceDir = QApplication::applicationDirPath() + "/../music/";
 
-        ppLogTrace("resourceDir1 %s", qPrintable(resourceDir));
+        ppLogTrace("unzipBoosterMusicBooks resourceDir1 %s", qPrintable(resourceDir));
 
         if (!QFile::exists(resourceDir + ZIPFILENAME))
             resourceDir = QApplication::applicationDirPath() + "/../../music/";
-        ppLogTrace("resourceDir2 %s", qPrintable(resourceDir));
+        ppLogTrace("unzipBoosterMusicBooks resourceDir2 %s", qPrintable(resourceDir));
 
         if (!QFile::exists(resourceDir + ZIPFILENAME))
         {
 #if defined (Q_OS_LINUX) || defined (Q_OS_UNIX)
-            resourceDir = QApplication::applicationDirPath() + "/../share/games/" + QSTR_APPNAME + "/music/";
+            resourceDir=QString(PREFIX)+"/"+QString(DATA_DIR)+"/music/";
 #endif
 #ifdef Q_OS_DARWIN
             resourceDir = QApplication::applicationDirPath() + "/../Resources/music/";
 #endif
-        }
-
-        QFile fileTestResourceDir(resourceDir);
-        if (!fileTestResourceDir.exists()){
-            resourceDir=QString(PREFIX)+"/"+QString(DATA_DIR)+"/music/";
         }
 
         ppLogInfo(qPrintable("applicationDirPath=" + QApplication::applicationDirPath()));
