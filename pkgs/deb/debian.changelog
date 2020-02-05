@@ -1,3 +1,9 @@
+qpiano (0.7.2) unstable; urgency=medium
+
+  * Build qpiano instead of pianobooster
+
+ -- Alexey Loginov <alexl@mageia.org>  Wed, 29 Jan 2020 01:08:17 +0100
+
 pianobooster (0.7.0) unstable; urgency=medium
 
   * Better installation by 'make install'

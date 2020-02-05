@@ -266,6 +266,9 @@ unix {
    icon64.path = $$PREFIX/share/icons/hicolor/64x64/apps
    icon64.files = icons/hicolor/64x64/qpiano.png
 
+   iconsvg.path = $$PREFIX/share/icons/hicolor/scalable/apps
+   iconsvg.files = icons/hicolor/scalable/qpiano.svg
+
    music.path = $$PREFIX/$$DATA_DIR/music
    music.files = music/QPianoMusicBooks.zip
 

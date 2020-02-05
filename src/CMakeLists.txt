@@ -1,7 +1,6 @@
 # Cmake File for QPiano
 # for the debug build type cmake -DCMAKE_BUILD_TYPE=Debug
 SET(CMAKE_BUILD_TYPE Release)
-SET(CMAKE_VERBOSE_MAKEFILE OFF)
 
 option(USE_FTGL "build with ftgl" ON)
 
@@ -290,6 +289,7 @@ endif()
 INSTALL ( FILES ../icons/hicolor/32x32/qpiano.png DESTINATION share/icons/hicolor/32x32/apps )
 INSTALL ( FILES ../icons/hicolor/48x48/qpiano.png DESTINATION share/icons/hicolor/48x48/apps )
 INSTALL ( FILES ../icons/hicolor/64x64/qpiano.png DESTINATION share/icons/hicolor/64x64/apps )
+INSTALL ( FILES ../icons/hicolor/scalable/qpiano.svg DESTINATION share/icons/hicolor/scalable/apps )
 
 IF (UNIX AND NOT APPLE)
     INSTALL ( FILES ../music/QPianoMusicBooks.zip DESTINATION ${DATA_DIR}/music )
