@@ -174,9 +174,9 @@ void GuiPreferencesDialog::accept()
     m_settings->setFollowThroughErrorsEnabled( followThroughErrorsCheck->isChecked());
     m_song->cfg_stopPointMode = static_cast<stopPointMode_t> (followStopPointCombo->currentIndex());
     m_settings->setValue("Score/StopPointMode", m_song->cfg_stopPointMode );
-    m_song->refreshScroll();
-
     m_settings->setValue("General/lang",languageCombo->currentData().toString());
+    
+    m_song->refreshScroll();
 
     this->QDialog::accept();
 }
