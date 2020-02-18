@@ -1715,7 +1715,7 @@
     <message>
         <location filename="../src/QtWindow.cpp" line="399"/>
         <source>Color Coded Notes</source>
-        <translation type="unfinished"/>
+        <translation>Notes codées en couleur</translation>
     </message>
     <message>
         <location filename="../src/QtWindow.cpp" line="400"/>

@@ -98,7 +98,7 @@
     <message>
         <location filename="../src/TrackList.cpp" line="359"/>
         <source>Honky-tonk Piano</source>
-        <translation type="unfinished"/>
+        <translation>Honky-tonk Piano</translation>
     </message>
     <message>
         <location filename="../src/TrackList.cpp" line="360"/>
@@ -118,12 +118,12 @@
     <message>
         <location filename="../src/TrackList.cpp" line="363"/>
         <source>Clavi</source>
-        <translation type="unfinished"/>
+        <translation>Clavichord</translation>
     </message>
     <message>
         <location filename="../src/TrackList.cpp" line="364"/>
         <source>Celesta</source>
-        <translation type="unfinished"/>
+        <translation>Celesta</translation>
     </message>
     <message>
         <location filename="../src/TrackList.cpp" line="365"/>
@@ -238,7 +238,7 @@
     <message>
         <location filename="../src/TrackList.cpp" line="387"/>
         <source>Guitar harmonics</source>
-        <translation type="unfinished"/>
+        <translation>Kontrabas (prsty - pizzicato)</translation>
     </message>
     <message>
         <location filename="../src/TrackList.cpp" line="388"/>
@@ -333,12 +333,12 @@
     <message>
         <location filename="../src/TrackList.cpp" line="406"/>
         <source>SynthStrings 1</source>
-        <translation type="unfinished"/>
+        <translation>Syntetické sláčíky 1</translation>
     </message>
     <message>
         <location filename="../src/TrackList.cpp" line="407"/>
         <source>SynthStrings 2</source>
-        <translation type="unfinished"/>
+        <translation>Syntetické sláčíky 2</translation>
     </message>
     <message>
         <location filename="../src/TrackList.cpp" line="408"/>
@@ -678,7 +678,7 @@
     <message>
         <location filename="../src/TrackList.cpp" line="475"/>
         <source>Reverse Cymbal</source>
-        <translation type="unfinished"/>
+        <translation>Zvuk činelu pospiatky</translation>
     </message>
     <message>
         <location filename="../src/TrackList.cpp" line="476"/>
@@ -1715,7 +1715,7 @@
     <message>
         <location filename="../src/QtWindow.cpp" line="399"/>
         <source>Color Coded Notes</source>
-        <translation type="unfinished"/>
+        <translation>Farebne označené noty</translation>
     </message>
     <message>
         <location filename="../src/QtWindow.cpp" line="400"/>
