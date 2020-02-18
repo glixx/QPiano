@@ -3,6 +3,7 @@ Name=QPiano (TiMidity)
 Comment=A MIDI file player that teaches you how to play the piano, with TiMidity sequencer
 GenericName=Piano Teacher
 Exec=qpiano-timidity %f
+StartupNotify=true
 Icon=qpiano
 Terminal=false
 Type=Application
